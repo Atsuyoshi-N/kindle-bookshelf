@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { getAllBooks, getBookById } from "@/lib/books";
 import { ComputedSession } from "@/types/book";
 
+const AMAZON_ASSOCIATE_TAG = process.env.AMAZON_ASSOCIATE_TAG || "";
+
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
   return date.toLocaleDateString("ja-JP", {
@@ -110,7 +112,22 @@ export default async function BookPage({
           <h1 className="text-2xl font-bold mb-2">{book.title}</h1>
           <p className="text-muted mb-1">{book.author}</p>
           {book.isbn && (
-            <p className="text-sm text-muted mb-4">ISBN: {book.isbn}</p>
+            <p className="text-sm text-muted mb-2">ISBN: {book.isbn}</p>
+          )}
+          {book.asin && (
+            <p className="mb-4">
+              <a
+                href={`https://www.amazon.co.jp/dp/${book.asin}${AMAZON_ASSOCIATE_TAG ? `?tag=${AMAZON_ASSOCIATE_TAG}` : ""}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-sm text-accent hover:underline"
+              >
+                Amazonで見る
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </p>
           )}
 
           <div className="flex flex-wrap gap-6 mb-6">

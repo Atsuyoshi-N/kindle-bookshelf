@@ -20,6 +20,7 @@ export interface BookData {
   id: string;
   title: string;
   author: string;
+  asin?: string;
   isbn?: string;
   coverUrl?: string;
   totalPages?: number;
