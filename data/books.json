@@ -34,7 +34,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "totalPages": 323
+      "totalPages": 323,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784150125066-L.jpg"
     },
     {
       "id": "b0bplf1gqq",
@@ -89,7 +90,7 @@
           "readingTimeMinutes": 8
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=GCqhEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065299180.jpg"
     },
     {
       "id": "b0cxhs3jth",
@@ -204,7 +205,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=K0D6EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065351543.jpg",
       "isbn": "9784065351543"
     },
     {
@@ -366,7 +367,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=pBDdEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065332610.jpg",
       "isbn": "9784065332610"
     },
     {
@@ -401,7 +402,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=YQkeEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065222539.jpg",
       "isbn": "9784065222539"
     },
     {
@@ -447,7 +448,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=WkgzEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065236079.jpg",
       "isbn": "9784065236079"
     },
     {
@@ -512,7 +513,7 @@
         }
       ],
       "totalPages": 187,
-      "coverUrl": "https://books.google.com/books/content?id=ZshjEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065271322.jpg",
       "isbn": "9784065271322"
     },
     {
@@ -567,7 +568,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=wJtHEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065251621.jpg",
       "isbn": "9784065251621"
     },
     {
@@ -584,7 +585,7 @@
         }
       ],
       "totalPages": 259,
-      "coverUrl": "https://books.google.com/books/content?id=GHTcDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784262129310.jpg",
       "isbn": "9784262129310"
     },
     {
@@ -601,7 +602,7 @@
       ],
       "isbn": "9784815604974",
       "totalPages": 435,
-      "coverUrl": "https://books.google.com/books/content?id=aE0PEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784815604974.jpg"
     },
     {
       "id": "b0fcs2r1cr",
@@ -652,7 +653,7 @@
         }
       ],
       "totalPages": 171,
-      "coverUrl": "https://books.google.com/books/content?id=MbusEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065418604.jpg",
       "isbn": "9784065418604"
     },
     {
@@ -740,7 +741,8 @@
         }
       ],
       "isbn": "9784121016065",
-      "totalPages": 329
+      "totalPages": 329,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784121016065-L.jpg"
     },
     {
       "id": "b0fzgz77ls",
@@ -761,7 +763,7 @@
         }
       ],
       "totalPages": 261,
-      "coverUrl": "https://books.google.com/books/content?id=S5GUEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088847634.jpg",
       "isbn": "9784088847634"
     },
     {
@@ -796,7 +798,8 @@
         }
       ],
       "isbn": "9784150125073",
-      "totalPages": 315
+      "totalPages": 315,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784150125073-L.jpg"
     },
     {
       "id": "b0g1m7h86v",
@@ -940,7 +943,7 @@
         }
       ],
       "totalPages": 205,
-      "coverUrl": "https://books.google.com/books/content?id=ioV6EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065285152.jpg",
       "isbn": "9784065285152"
     },
     {
@@ -985,7 +988,8 @@
         }
       ],
       "isbn": "9784299043023",
-      "totalPages": 159
+      "totalPages": 159,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784299043023-L.jpg"
     },
     {
       "id": "b0g6k6dl2h",
@@ -1051,7 +1055,8 @@
         }
       ],
       "isbn": "9784063957792",
-      "totalPages": 183
+      "totalPages": 183,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063957792-L.jpg"
     },
     {
       "id": "b0fvhhdf2f",
@@ -1111,7 +1116,8 @@
           "readingTimeMinutes": 7
         }
       ],
-      "isbn": "9784063956887"
+      "isbn": "9784063956887",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063956887-L.jpg"
     },
     {
       "id": "b0cb67ymr9",
@@ -1134,7 +1140,8 @@
           "currentPage": 194
         }
       ],
-      "isbn": "9784063957273"
+      "isbn": "9784063957273",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063957273-L.jpg"
     },
     {
       "id": "b0bzhc2rw3",
@@ -1155,7 +1162,8 @@
         }
       ],
       "isbn": "9784802212342",
-      "totalPages": 275
+      "totalPages": 275,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784802212342-L.jpg"
     },
     {
       "id": "b0cb65qxc2",
@@ -1179,7 +1187,8 @@
           "readingTimeMinutes": 16
         }
       ],
-      "isbn": "9784063956030"
+      "isbn": "9784063956030",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063956030-L.jpg"
     },
     {
       "id": "b0cb67gsnf",
@@ -1202,7 +1211,8 @@
           "currentPage": 190
         }
       ],
-      "isbn": "9784063956528"
+      "isbn": "9784063956528",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063956528-L.jpg"
     },
     {
       "id": "b0bb6g7h8d",
@@ -1223,7 +1233,7 @@
         }
       ],
       "totalPages": 209,
-      "coverUrl": "https://books.google.com/books/content?id=BEeFEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784763139795.jpg",
       "isbn": "9784763139795"
     },
     {
@@ -1264,7 +1274,7 @@
         }
       ],
       "totalPages": 217,
-      "coverUrl": "https://books.google.com/books/content?id=fEcmDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784905073604.jpg",
       "isbn": "9784905073604"
     },
     {
@@ -1310,7 +1320,7 @@
         }
       ],
       "totalPages": 181,
-      "coverUrl": "https://books.google.com/books/content?id=cgx0EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784761276157.jpg",
       "isbn": "9784761276157"
     },
     {
@@ -1360,7 +1370,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=ybAYEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065364727.jpg",
       "isbn": "9784065364727"
     },
     {
@@ -1394,7 +1404,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784063958546"
+      "isbn": "9784063958546",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063958546-L.jpg"
     },
     {
       "id": "b0cb63t45x",
@@ -1422,7 +1433,8 @@
           "currentPage": 372
         }
       ],
-      "isbn": "9784063958966"
+      "isbn": "9784063958966",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063958966-L.jpg"
     },
     {
       "id": "b0cb66h93q",
@@ -1451,7 +1463,8 @@
           "readingTimeMinutes": 3
         }
       ],
-      "isbn": "9784063954883"
+      "isbn": "9784063954883",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063954883-L.jpg"
     },
     {
       "id": "b0cb661bmx",
@@ -1484,7 +1497,8 @@
           "currentPage": 475
         }
       ],
-      "isbn": "9784063954371"
+      "isbn": "9784063954371",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063954371-L.jpg"
     },
     {
       "id": "b08hyx8fd1",
@@ -1510,7 +1524,7 @@
         }
       ],
       "totalPages": 292,
-      "coverUrl": "https://books.google.com/books/content?id=cdH8DwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065207833.jpg",
       "isbn": "9784065207833"
     },
     {
@@ -1541,7 +1555,8 @@
         }
       ],
       "isbn": "9784774142357",
-      "totalPages": 277
+      "totalPages": 277,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784774142357-L.jpg"
     },
     {
       "id": "b0fcl238yt",
@@ -1582,7 +1597,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=AbtkEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065397053.jpg",
       "isbn": "9784065397053"
     },
     {
@@ -1609,7 +1624,8 @@
         }
       ],
       "isbn": "9784198659042",
-      "totalPages": 310
+      "totalPages": 310,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784198659042-L.jpg"
     },
     {
       "id": "b00u5mvxzo",
@@ -1676,7 +1692,7 @@
       ],
       "isbn": "9784839952952",
       "totalPages": 482,
-      "coverUrl": "https://books.google.com/books/content?id=coAvBwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784839952952.jpg"
     },
     {
       "id": "b0dsgpq2hg",
@@ -1729,7 +1745,7 @@
         }
       ],
       "totalPages": 171,
-      "coverUrl": "https://books.google.com/books/content?id=6e88EQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065380123.jpg",
       "isbn": "9784065380123"
     },
     {
@@ -1789,7 +1805,7 @@
         }
       ],
       "totalPages": 187,
-      "coverUrl": "https://books.google.com/books/content?id=Qjm-EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065316825.jpg",
       "isbn": "9784065316825"
     },
     {
@@ -1809,7 +1825,7 @@
         }
       ],
       "totalPages": 197,
-      "coverUrl": "https://books.google.com/books/content?id=RusSAwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041210123.jpg",
       "isbn": "9784041210123"
     },
     {
@@ -1830,7 +1846,8 @@
         }
       ],
       "isbn": "9784041052297",
-      "totalPages": 205
+      "totalPages": 205,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041052297-L.jpg"
     },
     {
       "id": "b015x4uspy",
@@ -1851,7 +1868,7 @@
         }
       ],
       "totalPages": 191,
-      "coverUrl": "https://books.google.com/books/content?id=BkSfCgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041029145.jpg",
       "isbn": "9784041029145"
     },
     {
@@ -1868,7 +1885,8 @@
         }
       ],
       "isbn": "9784041039328",
-      "totalPages": 149
+      "totalPages": 149,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041039328-L.jpg"
     },
     {
       "id": "b071ckc3l7",
@@ -1883,7 +1901,8 @@
         }
       ],
       "isbn": "9784041056431",
-      "totalPages": 203
+      "totalPages": 203,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041056431-L.jpg"
     },
     {
       "id": "b00vfe63y2",
@@ -1898,7 +1917,7 @@
         }
       ],
       "totalPages": 193,
-      "coverUrl": "https://books.google.com/books/content?id=QCLGBwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041029138.jpg",
       "isbn": "9784041029138"
     },
     {
@@ -1914,7 +1933,7 @@
         }
       ],
       "totalPages": 191,
-      "coverUrl": "https://books.google.com/books/content?id=U1MyBQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041016770.jpg",
       "isbn": "9784041016770"
     },
     {
@@ -1930,7 +1949,7 @@
         }
       ],
       "totalPages": 197,
-      "coverUrl": "https://books.google.com/books/content?id=SzAWAgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041208748.jpg",
       "isbn": "9784041208748"
     },
     {
@@ -1946,7 +1965,7 @@
         }
       ],
       "totalPages": 193,
-      "coverUrl": "https://books.google.com/books/content?id=w-SeAwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041211175.jpg",
       "isbn": "9784041211175"
     },
     {
@@ -1963,7 +1982,8 @@
         }
       ],
       "isbn": "9784041207833",
-      "totalPages": 174
+      "totalPages": 174,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041207833-L.jpg"
     },
     {
       "id": "b078wpyhgn",
@@ -2103,7 +2123,9 @@
           "readingTimeMinutes": 12
         }
       ],
-      "isbn": "9784764904088"
+      "isbn": "9784764904088",
+      "totalPages": 1092,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784764904088-L.jpg"
     },
     {
       "id": "b071gn3jn2",
@@ -2174,7 +2196,8 @@
         }
       ],
       "isbn": "9784839960100",
-      "totalPages": 672
+      "totalPages": 672,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784839960100-L.jpg"
     },
     {
       "id": "b0frzys8y6",
@@ -2252,7 +2275,8 @@
         }
       ],
       "isbn": "9784046057525",
-      "totalPages": 127
+      "totalPages": 127,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046057525-L.jpg"
     },
     {
       "id": "b0fn3nnrlb",
@@ -2301,7 +2325,8 @@
         }
       ],
       "isbn": "9784478120378",
-      "totalPages": 303
+      "totalPages": 303,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784478120378-L.jpg"
     },
     {
       "id": "b08lg3v7jk",
@@ -2322,7 +2347,8 @@
         }
       ],
       "isbn": "9784041107058",
-      "totalPages": 216
+      "totalPages": 216,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041107058-L.jpg"
     },
     {
       "id": "b08j6bgxbf",
@@ -2343,7 +2369,8 @@
         }
       ],
       "isbn": "9784041085899",
-      "totalPages": 215
+      "totalPages": 215,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041085899-L.jpg"
     },
     {
       "id": "b079vmsmdh",
@@ -2364,7 +2391,8 @@
         }
       ],
       "isbn": "9784041057919",
-      "totalPages": 170
+      "totalPages": 170,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041057919-L.jpg"
     },
     {
       "id": "b07hgrs5jk",
@@ -2380,7 +2408,8 @@
         }
       ],
       "isbn": "9784041071557",
-      "totalPages": 180
+      "totalPages": 180,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041071557-L.jpg"
     },
     {
       "id": "b07nv6z5wc",
@@ -2396,7 +2425,7 @@
         }
       ],
       "totalPages": 203,
-      "coverUrl": "https://books.google.com/books/content?id=ESqKDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041071588.jpg",
       "isbn": "9784041071588"
     },
     {
@@ -2413,7 +2442,8 @@
         }
       ],
       "isbn": "9784041085882",
-      "totalPages": 220
+      "totalPages": 220,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041085882-L.jpg"
     },
     {
       "id": "b072wn8skk",
@@ -2429,7 +2459,8 @@
         }
       ],
       "isbn": "9784041057902",
-      "totalPages": 168
+      "totalPages": 168,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041057902-L.jpg"
     },
     {
       "id": "b01msyhx4l",
@@ -2445,7 +2476,8 @@
         }
       ],
       "isbn": "9784041050385",
-      "totalPages": 184
+      "totalPages": 184,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041050385-L.jpg"
     },
     {
       "id": "b0129krsz8",
@@ -2461,7 +2493,8 @@
         }
       ],
       "isbn": "9784041028698",
-      "totalPages": 187
+      "totalPages": 187,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041028698-L.jpg"
     },
     {
       "id": "b00r3xzmxw",
@@ -2481,7 +2514,8 @@
         }
       ],
       "isbn": "9784041015315",
-      "totalPages": 190
+      "totalPages": 190,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041015315-L.jpg"
     },
     {
       "id": "b018l6mz0m",
@@ -2497,7 +2531,8 @@
         }
       ],
       "isbn": "9784041028704",
-      "totalPages": 190
+      "totalPages": 190,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041028704-L.jpg"
     },
     {
       "id": "b01j9c57xe",
@@ -2513,7 +2548,8 @@
         }
       ],
       "isbn": "9784041042816",
-      "totalPages": 202
+      "totalPages": 202,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041042816-L.jpg"
     },
     {
       "id": "b071sl8gty",
@@ -2539,7 +2575,8 @@
         }
       ],
       "isbn": "9784774189864",
-      "totalPages": 423
+      "totalPages": 423,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784774189864-L.jpg"
     },
     {
       "id": "b00lbpg3j0",
@@ -2564,7 +2601,8 @@
         }
       ],
       "isbn": "9784041015308",
-      "totalPages": 190
+      "totalPages": 190,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041015308-L.jpg"
     },
     {
       "id": "b0bk94r2ln",
@@ -2585,7 +2623,7 @@
       ],
       "isbn": "9784799110904",
       "totalPages": 197,
-      "coverUrl": "https://books.google.com/books/content?id=xOifEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784799110904.jpg"
     },
     {
       "id": "b00hf4rj3k",
@@ -2601,7 +2639,8 @@
         }
       ],
       "isbn": "9784041209417",
-      "totalPages": 186
+      "totalPages": 186,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041209417-L.jpg"
     },
     {
       "id": "b00cyy7a3u",
@@ -2622,7 +2661,8 @@
         }
       ],
       "isbn": "9784041206263",
-      "totalPages": 186
+      "totalPages": 186,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041206263-L.jpg"
     },
     {
       "id": "b00evq02kw",
@@ -2638,7 +2678,8 @@
         }
       ],
       "isbn": "9784041208267",
-      "totalPages": 180
+      "totalPages": 180,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041208267-L.jpg"
     },
     {
       "id": "b00c40eqig",
@@ -2654,7 +2695,8 @@
         }
       ],
       "isbn": "9784041203293",
-      "totalPages": 188
+      "totalPages": 188,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784041203293-L.jpg"
     },
     {
       "id": "b0093galva",
@@ -2670,7 +2712,7 @@
         }
       ],
       "totalPages": 199,
-      "coverUrl": "https://books.google.com/books/content?id=-tJPELCYfdwC&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784041201251.jpg",
       "isbn": "9784041201251"
     },
     {
@@ -2687,7 +2729,8 @@
         }
       ],
       "isbn": "9784046313485",
-      "totalPages": 239
+      "totalPages": 239,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046313485-L.jpg"
     },
     {
       "id": "b0093g5tia",
@@ -2703,7 +2746,8 @@
         }
       ],
       "isbn": "9784046313843",
-      "totalPages": 188
+      "totalPages": 188,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046313843-L.jpg"
     },
     {
       "id": "b00nq3qonk",
@@ -2729,7 +2773,8 @@
         }
       ],
       "isbn": "9784140816585",
-      "totalPages": 253
+      "totalPages": 253,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784140816585-L.jpg"
     },
     {
       "id": "b0g4ct7jwf",
@@ -2745,7 +2790,7 @@
         }
       ],
       "isbn": "9784098543465",
-      "coverUrl": "https://books.google.com/books/content?id=4CyfEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098543465.jpg"
     },
     {
       "id": "b0cb683f97",
@@ -2769,7 +2814,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784063959444"
+      "isbn": "9784063959444",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063959444-L.jpg"
     },
     {
       "id": "b0cb66rqlc",
@@ -2797,7 +2843,8 @@
           "currentPage": 884
         }
       ],
-      "isbn": "9784063847932"
+      "isbn": "9784063847932",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063847932-L.jpg"
     },
     {
       "id": "b0cb663p75",
@@ -2820,7 +2867,8 @@
           "currentPage": 189
         }
       ],
-      "isbn": "9784063847475"
+      "isbn": "9784063847475",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063847475-L.jpg"
     },
     {
       "id": "b0cb676th9",
@@ -2843,7 +2891,8 @@
           "currentPage": 188
         }
       ],
-      "isbn": "9784063847314"
+      "isbn": "9784063847314",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063847314-L.jpg"
     },
     {
       "id": "b0cb66rqbn",
@@ -2868,7 +2917,8 @@
         }
       ],
       "isbn": "9784063846874",
-      "totalPages": 181
+      "totalPages": 181,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063846874-L.jpg"
     },
     {
       "id": "b096zwl6bb",
@@ -2907,7 +2957,7 @@
         }
       ],
       "totalPages": 208,
-      "coverUrl": "https://books.google.com/books/content?id=vIwyEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784151832536.jpg",
       "isbn": "9784151832536"
     },
     {
@@ -2932,7 +2982,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "isbn": "9784063955606"
+      "isbn": "9784063955606",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063955606-L.jpg"
     },
     {
       "id": "b0cb66ctqr",
@@ -2946,7 +2997,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063952438"
+      "isbn": "9784063952438",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063952438-L.jpg"
     },
     {
       "id": "b0cb673p26",
@@ -2960,7 +3012,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063952896"
+      "isbn": "9784063952896",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063952896-L.jpg"
     },
     {
       "id": "b0cb6942l8",
@@ -2979,7 +3032,8 @@
           "readingTimeMinutes": 59
         }
       ],
-      "isbn": "9784063950786"
+      "isbn": "9784063950786",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063950786-L.jpg"
     },
     {
       "id": "b0cb67qgyk",
@@ -2994,7 +3048,8 @@
         }
       ],
       "isbn": "9784063953459",
-      "totalPages": 183
+      "totalPages": 183,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063953459-L.jpg"
     },
     {
       "id": "b0cb688r8v",
@@ -3008,7 +3063,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063954012"
+      "isbn": "9784063954012",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063954012-L.jpg"
     },
     {
       "id": "b0cb68g944",
@@ -3023,7 +3079,8 @@
         }
       ],
       "isbn": "9784063951882",
-      "totalPages": 178
+      "totalPages": 178,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063951882-L.jpg"
     },
     {
       "id": "b0cb66tny2",
@@ -3043,7 +3100,8 @@
         }
       ],
       "isbn": "9784063844177",
-      "totalPages": 161
+      "totalPages": 161,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063844177-L.jpg"
     },
     {
       "id": "b0cb66dfnw",
@@ -3058,7 +3116,8 @@
         }
       ],
       "isbn": "9784063950243",
-      "totalPages": 178
+      "totalPages": 178,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063950243-L.jpg"
     },
     {
       "id": "b0cb678g7x",
@@ -3073,7 +3132,8 @@
         }
       ],
       "isbn": "9784063844740",
-      "totalPages": 159
+      "totalPages": 159,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063844740-L.jpg"
     },
     {
       "id": "b0cb67n3b9",
@@ -3087,7 +3147,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063845044"
+      "isbn": "9784063845044",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063845044-L.jpg"
     },
     {
       "id": "b0cb66z6jt",
@@ -3102,7 +3163,8 @@
         }
       ],
       "isbn": "9784063846423",
-      "totalPages": 173
+      "totalPages": 173,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063846423-L.jpg"
     },
     {
       "id": "b0cb66xp6l",
@@ -3116,7 +3178,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063845518"
+      "isbn": "9784063845518",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063845518-L.jpg"
     },
     {
       "id": "b0cb67hgj1",
@@ -3130,7 +3193,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063848632"
+      "isbn": "9784063848632",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063848632-L.jpg"
     },
     {
       "id": "b0cb67mgds",
@@ -3144,7 +3208,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063846133"
+      "isbn": "9784063846133",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063846133-L.jpg"
     },
     {
       "id": "b0cb68dy9l",
@@ -3158,7 +3223,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063844443"
+      "isbn": "9784063844443",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063844443-L.jpg"
     },
     {
       "id": "b0cb68cppm",
@@ -3172,7 +3238,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063949421"
+      "isbn": "9784063949421",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063949421-L.jpg"
     },
     {
       "id": "b0cb67jwyy",
@@ -3186,7 +3253,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063848267"
+      "isbn": "9784063848267",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063848267-L.jpg"
     },
     {
       "id": "b0cb68sq7s",
@@ -3200,7 +3268,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063845792"
+      "isbn": "9784063845792",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063845792-L.jpg"
     },
     {
       "id": "b0cb66v169",
@@ -3215,7 +3284,8 @@
         }
       ],
       "isbn": "9784063949094",
-      "totalPages": 173
+      "totalPages": 173,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063949094-L.jpg"
     },
     {
       "id": "b0cb67kdgd",
@@ -3230,7 +3300,8 @@
         }
       ],
       "isbn": "9784063949834",
-      "totalPages": 187
+      "totalPages": 187,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063949834-L.jpg"
     },
     {
       "id": "b0cb667g5c",
@@ -3245,7 +3316,7 @@
         }
       ],
       "totalPages": 729,
-      "coverUrl": "https://books.google.com/books/content?id=fq0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063841220.jpg",
       "isbn": "9784063841220"
     },
     {
@@ -3261,7 +3332,7 @@
         }
       ],
       "totalPages": 733,
-      "coverUrl": "https://books.google.com/books/content?id=gK0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063639728.jpg",
       "isbn": "9784063639728"
     },
     {
@@ -3278,7 +3349,8 @@
         }
       ],
       "isbn": "9784063843620",
-      "totalPages": 161
+      "totalPages": 161,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063843620-L.jpg"
     },
     {
       "id": "b0cb692lq2",
@@ -3294,7 +3366,7 @@
         }
       ],
       "totalPages": 1281,
-      "coverUrl": "https://books.google.com/books/content?id=9SMyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063639506.jpg",
       "isbn": "9784063639506"
     },
     {
@@ -3309,7 +3381,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063842098"
+      "isbn": "9784063842098",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063842098-L.jpg"
     },
     {
       "id": "b0cb68j2gp",
@@ -3324,7 +3397,7 @@
         }
       ],
       "totalPages": 1103,
-      "coverUrl": "https://books.google.com/books/content?id=8SMyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063637496.jpg",
       "isbn": "9784063637496"
     },
     {
@@ -3339,7 +3412,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063841466"
+      "isbn": "9784063841466",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063841466-L.jpg"
     },
     {
       "id": "b0cb69y83j",
@@ -3353,7 +3427,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784063841718"
+      "isbn": "9784063841718",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063841718-L.jpg"
     },
     {
       "id": "b0cb68vsp4",
@@ -3368,7 +3443,7 @@
         }
       ],
       "totalPages": 745,
-      "coverUrl": "https://books.google.com/books/content?id=2K0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063638882.jpg",
       "isbn": "9784063638882"
     },
     {
@@ -3384,7 +3459,7 @@
         }
       ],
       "totalPages": 731,
-      "coverUrl": "https://books.google.com/books/content?id=Kq0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063639124.jpg",
       "isbn": "9784063639124"
     },
     {
@@ -3400,7 +3475,7 @@
         }
       ],
       "totalPages": 741,
-      "coverUrl": "https://books.google.com/books/content?id=HK0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063638424.jpg",
       "isbn": "9784063638424"
     },
     {
@@ -3416,7 +3491,7 @@
         }
       ],
       "totalPages": 739,
-      "coverUrl": "https://books.google.com/books/content?id=aK0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063840858.jpg",
       "isbn": "9784063840858"
     },
     {
@@ -3432,7 +3507,8 @@
         }
       ],
       "isbn": "9784063842470",
-      "totalPages": 177
+      "totalPages": 177,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063842470-L.jpg"
     },
     {
       "id": "b0cb69pk5y",
@@ -3448,7 +3524,8 @@
         }
       ],
       "isbn": "9784063843125",
-      "totalPages": 117
+      "totalPages": 117,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063843125-L.jpg"
     },
     {
       "id": "b0cb654p6y",
@@ -3464,7 +3541,7 @@
         }
       ],
       "totalPages": 723,
-      "coverUrl": "https://books.google.com/books/content?id=iq0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063840636.jpg",
       "isbn": "9784063840636"
     },
     {
@@ -3480,7 +3557,7 @@
         }
       ],
       "totalPages": 735,
-      "coverUrl": "https://books.google.com/books/content?id=jK0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063638196.jpg",
       "isbn": "9784063638196"
     },
     {
@@ -3495,7 +3572,8 @@
           "currentPage": 2
         }
       ],
-      "isbn": "9784063842814"
+      "isbn": "9784063842814",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063842814-L.jpg"
     },
     {
       "id": "b0cb67bwnc",
@@ -3510,7 +3588,7 @@
         }
       ],
       "totalPages": 727,
-      "coverUrl": "https://books.google.com/books/content?id=Jq0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063840018.jpg",
       "isbn": "9784063840018"
     },
     {
@@ -3526,7 +3604,7 @@
         }
       ],
       "totalPages": 739,
-      "coverUrl": "https://books.google.com/books/content?id=Yq0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063637946.jpg",
       "isbn": "9784063637946"
     },
     {
@@ -3543,7 +3621,7 @@
         }
       ],
       "totalPages": 573,
-      "coverUrl": "https://books.google.com/books/content?id=oq0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063637250.jpg",
       "isbn": "9784063637250"
     },
     {
@@ -3560,7 +3638,7 @@
         }
       ],
       "totalPages": 733,
-      "coverUrl": "https://books.google.com/books/content?id=oK0lEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063840223.jpg",
       "isbn": "9784063840223"
     },
     {
@@ -3577,7 +3655,7 @@
         }
       ],
       "totalPages": 1121,
-      "coverUrl": "https://books.google.com/books/content?id=cyQyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063637120.jpg",
       "isbn": "9784063637120"
     },
     {
@@ -3673,7 +3751,8 @@
         }
       ],
       "isbn": "9784063725780",
-      "totalPages": 209
+      "totalPages": 209,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063725780-L.jpg"
     },
     {
       "id": "b0cb69crqc",
@@ -3693,7 +3772,7 @@
         }
       ],
       "totalPages": 1033,
-      "coverUrl": "https://books.google.com/books/content?id=YyQyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063724226.jpg",
       "isbn": "9784063724226"
     },
     {
@@ -3715,7 +3794,7 @@
         }
       ],
       "totalPages": 1232,
-      "coverUrl": "https://books.google.com/books/content?id=BSQyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063725568.jpg",
       "isbn": "9784063725568"
     },
     {
@@ -3732,7 +3811,8 @@
         }
       ],
       "isbn": "9784063725698",
-      "totalPages": 205
+      "totalPages": 205,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063725698-L.jpg"
     },
     {
       "id": "b0cb67ptz5",
@@ -3767,7 +3847,10 @@
           "currentPage": 43,
           "readingTimeMinutes": 12
         }
-      ]
+      ],
+      "isbn": "9784046061447",
+      "totalPages": 143,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046061447-L.jpg"
     },
     {
       "id": "b0cb67qljv",
@@ -3783,7 +3866,7 @@
         }
       ],
       "totalPages": 1219,
-      "coverUrl": "https://books.google.com/books/content?id=NyQyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063724905.jpg",
       "isbn": "9784063724905"
     },
     {
@@ -3799,7 +3882,7 @@
         }
       ],
       "totalPages": 1215,
-      "coverUrl": "https://books.google.com/books/content?id=ESQyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063725100.jpg",
       "isbn": "9784063725100"
     },
     {
@@ -3816,7 +3899,7 @@
         }
       ],
       "totalPages": 1043,
-      "coverUrl": "https://books.google.com/books/content?id=OSQyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063724776.jpg",
       "isbn": "9784063724776"
     },
     {
@@ -3833,7 +3916,8 @@
         }
       ],
       "totalPages": 115,
-      "coverUrl": "https://books.google.com/books/content?id=oE33EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784478118511.jpg",
+      "isbn": "9784478118511"
     },
     {
       "id": "b0d97bf46g",
@@ -3866,7 +3950,7 @@
         }
       ],
       "totalPages": 1013,
-      "coverUrl": "https://books.google.com/books/content?id=5SMyEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784063724356.jpg",
       "isbn": "9784063724356"
     },
     {
@@ -3900,7 +3984,7 @@
         }
       ],
       "totalPages": 217,
-      "coverUrl": "https://books.google.com/books/content?id=B5KIEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065288702.jpg",
       "isbn": "9784065288702"
     },
     {
@@ -3916,7 +4000,7 @@
         }
       ],
       "totalPages": 222,
-      "coverUrl": "https://books.google.com/books/content?id=uowyEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784151832543.jpg",
       "isbn": "9784151832543"
     },
     {
@@ -3943,7 +4027,7 @@
         }
       ],
       "totalPages": 223,
-      "coverUrl": "https://books.google.com/books/content?id=t4S7EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088927671.jpg",
       "isbn": "9784088927671"
     },
     {
@@ -3985,7 +4069,7 @@
           "readingTimeMinutes": 17
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=pDuaDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784801966277.jpg",
       "isbn": "9784801966277"
     },
     {
@@ -4011,7 +4095,7 @@
         }
       ],
       "totalPages": 177,
-      "coverUrl": "https://books.google.com/books/content?id=5sztCgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784812483800.jpg",
       "isbn": "9784812483800"
     },
     {
@@ -4067,7 +4151,7 @@
       ],
       "isbn": "9784798142470",
       "totalPages": 746,
-      "coverUrl": "https://books.google.com/books/content?id=IZyzDAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784798142470.jpg"
     },
     {
       "id": "b01ey302kq",
@@ -4100,7 +4184,7 @@
         }
       ],
       "totalPages": 171,
-      "coverUrl": "https://books.google.com/books/content?id=wcztCgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784801952744.jpg",
       "isbn": "9784801952744"
     },
     {
@@ -4120,7 +4204,8 @@
           "readingTimeMinutes": 22
         }
       ],
-      "isbn": "9784801960114"
+      "isbn": "9784801960114",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784801960114-L.jpg"
     },
     {
       "id": "b01my0ek67",
@@ -4152,7 +4237,8 @@
           "readingTimeMinutes": 23
         }
       ],
-      "isbn": "9784812487167"
+      "isbn": "9784812487167",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784812487167-L.jpg"
     },
     {
       "id": "b0d5qvtnnr",
@@ -4183,7 +4269,8 @@
         }
       ],
       "isbn": "9784800592156",
-      "totalPages": 257
+      "totalPages": 257,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784800592156-L.jpg"
     },
     {
       "id": "b07vv2gz2h",
@@ -4328,7 +4415,7 @@
         }
       ],
       "isbn": "9784098614684",
-      "coverUrl": "https://books.google.com/books/content?id=j_d9EQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098614684.jpg"
     },
     {
       "id": "b09fjny2wp",
@@ -4344,7 +4431,7 @@
         }
       ],
       "totalPages": 153,
-      "coverUrl": "https://books.google.com/books/content?id=gBDrEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784866213576.jpg",
       "isbn": "9784866213576"
     },
     {
@@ -4361,7 +4448,8 @@
         }
       ],
       "isbn": "9784800592521",
-      "totalPages": 422
+      "totalPages": 422,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784800592521-L.jpg"
     },
     {
       "id": "b0b3xd5hjb",
@@ -4376,7 +4464,8 @@
         }
       ],
       "isbn": "9784480684318",
-      "totalPages": 224
+      "totalPages": 224,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784480684318-L.jpg"
     },
     {
       "id": "b0clncx7fm",
@@ -4390,7 +4479,9 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784800591319"
+      "isbn": "9784800591319",
+      "totalPages": 318,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784800591319-L.jpg"
     },
     {
       "id": "b01nasr4we",
@@ -4420,7 +4511,7 @@
         }
       ],
       "totalPages": 217,
-      "coverUrl": "https://books.google.com/books/content?id=VlYyDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784820719359.jpg",
       "isbn": "9784820719359"
     },
     {
@@ -4451,7 +4542,7 @@
         }
       ],
       "isbn": "9784098625185",
-      "coverUrl": "https://books.google.com/books/content?id=G0DXEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098625185.jpg"
     },
     {
       "id": "b0dvscglvv",
@@ -4481,7 +4572,7 @@
         }
       ],
       "totalPages": 195,
-      "coverUrl": "https://books.google.com/books/content?id=3kBDEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088844923.jpg",
       "isbn": "9784088844923"
     },
     {
@@ -4497,7 +4588,7 @@
         }
       ],
       "totalPages": 291,
-      "coverUrl": "https://books.google.com/books/content?id=8PJ1EQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088847269.jpg",
       "isbn": "9784088847269"
     },
     {
@@ -4523,7 +4614,7 @@
         }
       ],
       "isbn": "9784098634095",
-      "coverUrl": "https://books.google.com/books/content?id=wYJWEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098634095.jpg"
     },
     {
       "id": "b0fblnmfyl",
@@ -4599,7 +4690,8 @@
         }
       ],
       "isbn": "9784048931168",
-      "totalPages": 293
+      "totalPages": 293,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784048931168-L.jpg"
     },
     {
       "id": "b099922dml",
@@ -4777,7 +4869,8 @@
         }
       ],
       "isbn": "9784621066058",
-      "totalPages": 325
+      "totalPages": 325,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784621066058-L.jpg"
     },
     {
       "id": "b0f3274rrd",
@@ -4813,7 +4906,7 @@
         }
       ],
       "totalPages": 201,
-      "coverUrl": "https://books.google.com/books/content?id=JodLEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088935096.jpg",
       "isbn": "9784088935096"
     },
     {
@@ -4904,7 +4997,7 @@
         }
       ],
       "totalPages": 200,
-      "coverUrl": "https://books.google.com/books/content?id=x0IuEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098515516.jpg",
       "isbn": "9784098515516"
     },
     {
@@ -4930,7 +5023,7 @@
         }
       ],
       "totalPages": 201,
-      "coverUrl": "https://books.google.com/books/content?id=pfccEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098515509.jpg",
       "isbn": "9784098515509"
     },
     {
@@ -4956,7 +5049,7 @@
         }
       ],
       "totalPages": 264,
-      "coverUrl": "https://books.google.com/books/content?id=r709EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098520381.jpg",
       "isbn": "9784098520381"
     },
     {
@@ -4983,7 +5076,7 @@
         }
       ],
       "totalPages": 202,
-      "coverUrl": "https://books.google.com/books/content?id=9V5LEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098520398.jpg",
       "isbn": "9784098520398"
     },
     {
@@ -5014,7 +5107,7 @@
         }
       ],
       "totalPages": 202,
-      "coverUrl": "https://books.google.com/books/content?id=kspeEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098520404.jpg",
       "isbn": "9784098520404"
     },
     {
@@ -5056,7 +5149,7 @@
       ],
       "isbn": "9784798188249",
       "totalPages": 666,
-      "coverUrl": "https://books.google.com/books/content?id=UgsnEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784798188249.jpg"
     },
     {
       "id": "b0csfg47zp",
@@ -5085,7 +5178,8 @@
         }
       ],
       "isbn": "9784297101763",
-      "totalPages": 207
+      "totalPages": 207,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784297101763-L.jpg"
     },
     {
       "id": "b0827qndnt",
@@ -5144,7 +5238,8 @@
         }
       ],
       "isbn": "9784274060731",
-      "totalPages": 249
+      "totalPages": 249,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784274060731-L.jpg"
     },
     {
       "id": "b08cr7714m",
@@ -5160,7 +5255,7 @@
         }
       ],
       "totalPages": 199,
-      "coverUrl": "https://books.google.com/books/content?id=f9_wDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065202241.jpg",
       "isbn": "9784065202241"
     },
     {
@@ -5194,7 +5289,7 @@
         }
       ],
       "totalPages": 209,
-      "coverUrl": "https://books.google.com/books/content?id=4sEvEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784065374771.jpg",
       "isbn": "9784065374771"
     },
     {
@@ -5210,7 +5305,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784065297322"
+      "isbn": "9784065297322",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784065297322-L.jpg"
     },
     {
       "id": "b077gkylf4",
@@ -5247,7 +5343,7 @@
         }
       ],
       "totalPages": 232,
-      "coverUrl": "https://books.google.com/books/content?id=Yno3EQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098541898.jpg",
       "isbn": "9784098541898"
     },
     {
@@ -5315,7 +5411,8 @@
         }
       ],
       "coverUrl": "https://books.google.com/books/content?id=GarkCgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784063881011"
+      "isbn": "9784063881011",
+      "totalPages": 194
     },
     {
       "id": "b071z1kml3",
@@ -5331,7 +5428,8 @@
         }
       ],
       "coverUrl": "https://books.google.com/books/content?id=FknUDgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784063882599"
+      "isbn": "9784063882599",
+      "totalPages": 194
     },
     {
       "id": "b01lxhrbya",
@@ -5347,7 +5445,8 @@
         }
       ],
       "coverUrl": "https://books.google.com/books/content?id=bJ4ODQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784063881851"
+      "isbn": "9784063881851",
+      "totalPages": 194
     },
     {
       "id": "b07jcn2xny",
@@ -5426,7 +5525,9 @@
           "readingTimeMinutes": 17
         }
       ],
-      "isbn": "9784822284763"
+      "isbn": "9784822284763",
+      "totalPages": 900,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784822284763-L.jpg"
     },
     {
       "id": "b08jg488pb",
@@ -5447,7 +5548,7 @@
       ],
       "isbn": "9784866800981",
       "totalPages": 320,
-      "coverUrl": "https://books.google.com/books/content?id=wnx2EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784866800981.jpg"
     },
     {
       "id": "b0dldnymvk",
@@ -5471,7 +5572,7 @@
           "currentPage": 601
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=5mMrEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088935751.jpg",
       "isbn": "9784088935751"
     },
     {
@@ -5527,8 +5628,9 @@
           "readingTimeMinutes": 37
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=6I_VDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784569846675"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784569846675.jpg",
+      "isbn": "9784569846675",
+      "totalPages": 221
     },
     {
       "id": "b0ckv4zh8l",
@@ -5548,8 +5650,9 @@
           "readingTimeMinutes": 29
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=ZVHkEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784756922946"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784756922946.jpg",
+      "isbn": "9784756922946",
+      "totalPages": 238
     },
     {
       "id": "b0djb5jksz",
@@ -5570,7 +5673,7 @@
         }
       ],
       "totalPages": 195,
-      "coverUrl": "https://books.google.com/books/content?id=4XglEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088843155.jpg",
       "isbn": "9784088843155"
     },
     {
@@ -5639,7 +5742,7 @@
         }
       ],
       "isbn": "9784098614684",
-      "coverUrl": "https://books.google.com/books/content?id=memXEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098614684.jpg"
     },
     {
       "id": "b00932n5i0",
@@ -5653,7 +5756,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784047138117"
+      "isbn": "9784047138117",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784047138117-L.jpg"
     },
     {
       "id": "b0d6n1fvmw",
@@ -5771,8 +5875,9 @@
           "readingTimeMinutes": 7
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=xdCEDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784088933030"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088933030.jpg",
+      "isbn": "9784088933030",
+      "totalPages": 194
     },
     {
       "id": "b0d59q6kx3",
@@ -5786,7 +5891,7 @@
           "currentPage": 1
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=eFMKEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088841601.jpg",
       "isbn": "9784088841601"
     },
     {
@@ -5801,7 +5906,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784088834436"
+      "isbn": "9784088834436",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088834436-L.jpg"
     },
     {
       "id": "b0c9ld8bv4",
@@ -5815,7 +5921,7 @@
           "currentPage": 1
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=UMTHEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088836133.jpg",
       "isbn": "9784088836133"
     },
     {
@@ -5830,7 +5936,7 @@
           "currentPage": 1
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=2u_fEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088837475.jpg",
       "isbn": "9784088837475"
     },
     {
@@ -5846,7 +5952,9 @@
           "readingTimeMinutes": 41
         }
       ],
-      "isbn": "9784088833057"
+      "isbn": "9784088833057",
+      "totalPages": 239,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088833057-L.jpg"
     },
     {
       "id": "b0cw1kc2k9",
@@ -5860,7 +5968,8 @@
           "currentPage": 1
         }
       ],
-      "isbn": "9784088838984"
+      "isbn": "9784088838984",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088838984-L.jpg"
     },
     {
       "id": "b0cjrfzydn",
@@ -5893,8 +6002,9 @@
           "currentPage": 700
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=Aot1DwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784088930022"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088930022.jpg",
+      "isbn": "9784088930022",
+      "totalPages": 214
     },
     {
       "id": "b0c69b663c",
@@ -5928,8 +6038,9 @@
           "currentPage": 652
         }
       ],
-      "isbn": "9784569632605",
-      "coverUrl": "https://books.google.com/books/content?id=5f3WAAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "isbn": "9784088927800",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088927800.jpg",
+      "totalPages": 188
     },
     {
       "id": "b0bt4vg4q7",
@@ -5943,8 +6054,9 @@
           "currentPage": 5
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=LRiUDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784088926308"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088926308.jpg",
+      "isbn": "9784088926308",
+      "totalPages": 181
     },
     {
       "id": "b0bnl54nds",
@@ -5958,8 +6070,9 @@
           "currentPage": 5
         }
       ],
-      "isbn": "9784087034615",
-      "coverUrl": "https://books.google.com/books/content?id=u2m6DAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "isbn": "9784088925356",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088925356.jpg",
+      "totalPages": 192
     },
     {
       "id": "b0bbtnd7cw",
@@ -5973,8 +6086,9 @@
           "currentPage": 1
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=EQPdEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784088924298"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088924298.jpg",
+      "isbn": "9784088924298",
+      "totalPages": 185
     },
     {
       "id": "b0dgl9hbr2",
@@ -5998,7 +6112,8 @@
         }
       ],
       "isbn": "9784098630332",
-      "coverUrl": "https://books.google.com/books/content?id=ZtkhEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098630332.jpg",
+      "totalPages": 215
     },
     {
       "id": "b0dh7qy2qx",
@@ -6054,7 +6169,7 @@
         }
       ],
       "isbn": "9784777935475",
-      "coverUrl": "https://books.google.com/books/content?id=P77XCQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784777935475.jpg"
     },
     {
       "id": "b0db4q9m35",
@@ -6074,7 +6189,7 @@
           "readingTimeMinutes": 15
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=H9sVEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088933832.jpg",
       "isbn": "9784088933832"
     },
     {
@@ -6095,7 +6210,7 @@
           "readingTimeMinutes": 18
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=2U8EEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088932668.jpg",
       "isbn": "9784088932668"
     },
     {
@@ -6120,8 +6235,9 @@
           "currentPage": 354
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=4YwOEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784098537785"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098537785.jpg",
+      "isbn": "9784098537785",
+      "totalPages": 181
     },
     {
       "id": "b0cgj6lrwb",
@@ -6151,7 +6267,7 @@
           "readingTimeMinutes": 16
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=bbzSEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088928647.jpg",
       "isbn": "9784088928647"
     },
     {
@@ -6172,7 +6288,7 @@
           "readingTimeMinutes": 19
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=EPHfEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088930718.jpg",
       "isbn": "9784088930718"
     },
     {
@@ -6192,7 +6308,7 @@
           "currentPage": 210
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=dW_wEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088932057.jpg",
       "isbn": "9784088932057"
     },
     {
@@ -6213,7 +6329,7 @@
           "readingTimeMinutes": 15
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=J8rAEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088927688.jpg",
       "isbn": "9784088927688"
     },
     {
@@ -6234,7 +6350,7 @@
           "readingTimeMinutes": 14
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=_VQDEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098515493.jpg",
       "isbn": "9784098515493"
     },
     {
@@ -6255,8 +6371,9 @@
           "readingTimeMinutes": 16
         }
       ],
-      "coverUrl": "https://books.google.com/books/content?id=XrqnEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
-      "isbn": "9784088931722"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784088931722.jpg",
+      "isbn": "9784088931722",
+      "totalPages": 196
     },
     {
       "id": "b0cw1fvybv",
@@ -6302,7 +6419,8 @@
         }
       ],
       "isbn": "9784815607852",
-      "coverUrl": "https://books.google.com/books/content?id=dW6CEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784815607852.jpg",
+      "totalPages": 534
     },
     {
       "id": "b0cpppsczz",
@@ -6328,7 +6446,8 @@
         }
       ],
       "isbn": "9784098626182",
-      "coverUrl": "https://books.google.com/books/content?id=thDpEAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098626182.jpg",
+      "totalPages": 200
     },
     {
       "id": "b0cw1ggg4w",
@@ -6343,7 +6462,7 @@
         }
       ],
       "isbn": "9784098626892",
-      "coverUrl": "https://books.google.com/books/content?id=Akr7EAAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api"
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784098626892.jpg"
     },
     {
       "id": "b0ck2gw7y4",
@@ -6386,7 +6505,9 @@
           "readingTimeMinutes": 4
         }
       ],
-      "isbn": "9784799327104"
+      "isbn": "9784799327104",
+      "totalPages": 381,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784799327104-L.jpg"
     },
     {
       "id": "b0b7wls4b2",
@@ -6405,7 +6526,8 @@
           "readingTimeMinutes": 12
         }
       ],
-      "isbn": "9784098520428"
+      "isbn": "9784098520428",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784098520428-L.jpg"
     },
     {
       "id": "b00g9qj1dg",
@@ -6429,7 +6551,8 @@
           "currentPage": 135
         }
       ],
-      "isbn": "9784798121505"
+      "isbn": "9784798121505",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784798121505-L.jpg"
     },
     {
       "id": "b09gtv35vj",
@@ -6882,7 +7005,10 @@
           "currentPage": 721,
           "readingTimeMinutes": 6
         }
-      ]
+      ],
+      "isbn": "9784297122676",
+      "totalPages": 471,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784297122676-L.jpg"
     },
     {
       "id": "b0b1z9zmy6",
@@ -6928,7 +7054,9 @@
           "readingTimeMinutes": 4
         }
       ],
-      "isbn": "9784297128463"
+      "isbn": "9784297128463",
+      "totalPages": 343,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784297128463-L.jpg"
     },
     {
       "id": "b08t9bxsvd",
@@ -7064,7 +7192,9 @@
           "date": "2023-08-30",
           "currentPage": 2000
         }
-      ]
+      ],
+      "isbn": "9784894712744",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784894712744-L.jpg"
     },
     {
       "id": "b09zxs6xh6",
@@ -7078,7 +7208,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784098520411"
+      "isbn": "9784098520411",
+      "totalPages": 177,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784098520411-L.jpg"
     },
     {
       "id": "b0c4tcz6h3",
@@ -7097,7 +7229,8 @@
           "readingTimeMinutes": 19
         }
       ],
-      "isbn": "9784098530342"
+      "isbn": "9784098530342",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784098530342-L.jpg"
     },
     {
       "id": "b0bdzgdm9j",
@@ -7196,7 +7329,9 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784839977504"
+      "isbn": "9784839977504",
+      "totalPages": 463,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784839977504-L.jpg"
     },
     {
       "id": "b00ux9vjgw",
@@ -7249,7 +7384,9 @@
           "currentPage": 422
         }
       ],
-      "isbn": "9784798131610"
+      "isbn": "9784798131610",
+      "totalPages": 583,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784798131610-L.jpg"
     },
     {
       "id": "b0bvb96hy8",
@@ -7268,7 +7405,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784098526628"
+      "isbn": "9784098526628",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784098526628-L.jpg"
     },
     {
       "id": "b094j7zcjn",
@@ -7297,7 +7435,9 @@
           "readingTimeMinutes": 68
         }
       ],
-      "isbn": "9784839973490"
+      "isbn": "9784839973490",
+      "totalPages": 681,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784839973490-L.jpg"
     },
     {
       "id": "b07s675hvm",
@@ -7327,7 +7467,9 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784798161501"
+      "isbn": "9784798161501",
+      "totalPages": 182,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784798161501-L.jpg"
     },
     {
       "id": "b00dim6330",
@@ -7354,7 +7496,9 @@
           "currentPage": 34
         }
       ],
-      "isbn": "9784798157825"
+      "isbn": "9784798157825",
+      "totalPages": 357,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784798157825-L.jpg"
     },
     {
       "id": "b00i8athgw",
@@ -7442,7 +7586,9 @@
           "currentPage": 220
         }
       ],
-      "isbn": "9784797327038"
+      "isbn": "9784797327038",
+      "totalPages": 484,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784797327038-L.jpg"
     },
     {
       "id": "b09y1mwk9n",
@@ -7644,7 +7790,9 @@
           "currentPage": 327
         }
       ],
-      "isbn": "9784534057716"
+      "isbn": "9784534057716",
+      "totalPages": 254,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784534057716-L.jpg"
     },
     {
       "id": "b07j5y5nzc",
@@ -7663,7 +7811,9 @@
           "currentPage": 47
         }
       ],
-      "isbn": "9784046023612"
+      "isbn": "9784046023612",
+      "totalPages": 265,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046023612-L.jpg"
     },
     {
       "id": "b09kn4lwmz",
@@ -7713,7 +7863,9 @@
           "currentPage": 527
         }
       ],
-      "isbn": "9784774189673"
+      "isbn": "9784774189673",
+      "totalPages": 337,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784774189673-L.jpg"
     },
     {
       "id": "b09mvgm99l",
@@ -7731,7 +7883,10 @@
           "date": "2023-05-07",
           "currentPage": 100
         }
-      ]
+      ],
+      "isbn": "9784297145712",
+      "totalPages": 511,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784297145712-L.jpg"
     },
     {
       "id": "b07zqwkl2q",
@@ -7932,7 +8087,9 @@
           "readingTimeMinutes": 8
         }
       ],
-      "isbn": "9784478012031"
+      "isbn": "9784478012031",
+      "totalPages": 272,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784478012031-L.jpg"
     },
     {
       "id": "b00yx5jri4",
@@ -7960,7 +8117,9 @@
           "currentPage": 460
         }
       ],
-      "isbn": "9784905073154"
+      "isbn": "9784905073154",
+      "totalPages": 223,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784905073154-L.jpg"
     },
     {
       "id": "b0c15k5kmx",
@@ -7999,7 +8158,8 @@
           "readingTimeMinutes": 16
         }
       ],
-      "isbn": "9784088913209"
+      "isbn": "9784088913209",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088913209-L.jpg"
     },
     {
       "id": "b081qy8kv7",
@@ -8023,7 +8183,9 @@
           "currentPage": 121
         }
       ],
-      "isbn": "9784815602918"
+      "isbn": "9784815602918",
+      "totalPages": 395,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784815602918-L.jpg"
     },
     {
       "id": "b0957c96xm",
@@ -8048,7 +8210,8 @@
           "readingTimeMinutes": 1
         }
       ],
-      "isbn": "9784088913674"
+      "isbn": "9784088913674",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088913674-L.jpg"
     },
     {
       "id": "b0bp168n2d",
@@ -8073,7 +8236,8 @@
           "readingTimeMinutes": 16
         }
       ],
-      "isbn": "9784088922522"
+      "isbn": "9784088922522",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088922522-L.jpg"
     },
     {
       "id": "b0bp164kbg",
@@ -8098,7 +8262,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088923642"
+      "isbn": "9784088923642",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088923642-L.jpg"
     },
     {
       "id": "b0bksh7ggx",
@@ -8123,7 +8288,8 @@
           "readingTimeMinutes": 21
         }
       ],
-      "isbn": "9784088925349"
+      "isbn": "9784088925349",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088925349-L.jpg"
     },
     {
       "id": "b00ake1v04",
@@ -8138,7 +8304,8 @@
           "readingTimeMinutes": 1
         }
       ],
-      "isbn": "9780521663502"
+      "isbn": "9780521663502",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780521663502-L.jpg"
     },
     {
       "id": "b0bbtm3sls",
@@ -8163,7 +8330,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088924304"
+      "isbn": "9784088924304",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088924304-L.jpg"
     },
     {
       "id": "b0bpbb1jnk",
@@ -8187,7 +8355,9 @@
           "readingTimeMinutes": 2
         }
       ],
-      "isbn": "9784296109579"
+      "isbn": "9784296109579",
+      "totalPages": 454,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784296109579-L.jpg"
     },
     {
       "id": "b0bp15sxf9",
@@ -8216,7 +8386,8 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784088921617"
+      "isbn": "9784088921617",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088921617-L.jpg"
     },
     {
       "id": "b09wr1z333",
@@ -8264,7 +8435,8 @@
           "readingTimeMinutes": 5
         }
       ],
-      "isbn": "9784088918709"
+      "isbn": "9784088918709",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088918709-L.jpg"
     },
     {
       "id": "b0957d74hw",
@@ -8289,7 +8461,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088916460"
+      "isbn": "9784088916460",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088916460-L.jpg"
     },
     {
       "id": "b0957csjqc",
@@ -8309,7 +8482,8 @@
           "readingTimeMinutes": 16
         }
       ],
-      "isbn": "9784088914572"
+      "isbn": "9784088914572",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088914572-L.jpg"
     },
     {
       "id": "b0bp16qt7f",
@@ -8334,7 +8508,8 @@
           "readingTimeMinutes": 19
         }
       ],
-      "isbn": "9784088917535"
+      "isbn": "9784088917535",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088917535-L.jpg"
     },
     {
       "id": "b0957bc19x",
@@ -8354,7 +8529,8 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784088915272"
+      "isbn": "9784088915272",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088915272-L.jpg"
     },
     {
       "id": "b0bp16s8fv",
@@ -8374,7 +8550,8 @@
           "readingTimeMinutes": 19
         }
       ],
-      "isbn": "9784088917160"
+      "isbn": "9784088917160",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088917160-L.jpg"
     },
     {
       "id": "b09h6s8xsm",
@@ -8422,7 +8599,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088920542"
+      "isbn": "9784088920542",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088920542-L.jpg"
     },
     {
       "id": "b0bc8jbw31",
@@ -8563,7 +8741,8 @@
           "readingTimeMinutes": 23
         }
       ],
-      "isbn": "9784088912318"
+      "isbn": "9784088912318",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088912318-L.jpg"
     },
     {
       "id": "b07q22d9h9",
@@ -8596,7 +8775,9 @@
           "currentPage": 115
         }
       ],
-      "isbn": "9784058014967"
+      "isbn": "9784058014967",
+      "totalPages": 160,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784058014967-L.jpg"
     },
     {
       "id": "b07yy2wv6k",
@@ -8642,7 +8823,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784775942154"
+      "isbn": "9784775942154",
+      "totalPages": 323,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784775942154-L.jpg"
     },
     {
       "id": "b075v63nqr",
@@ -8678,7 +8861,8 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784484121116"
+      "isbn": "9784484121116",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784484121116-L.jpg"
     },
     {
       "id": "b09tzz4z6b",
@@ -8692,7 +8876,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784065277522"
+      "isbn": "9784065277522",
+      "totalPages": 216,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784065277522-L.jpg"
     },
     {
       "id": "b00gu4r7qa",
@@ -8706,7 +8892,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784334033972"
+      "isbn": "9784334033972",
+      "totalPages": 238,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784334033972-L.jpg"
     },
     {
       "id": "b00anwn5w0",
@@ -8719,7 +8907,10 @@
           "date": "2022-12-26",
           "currentPage": 0
         }
-      ]
+      ],
+      "isbn": "9784492557204",
+      "totalPages": 159,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784492557204-L.jpg"
     },
     {
       "id": "b07vr1cchv",
@@ -8757,7 +8948,9 @@
           "currentPage": 131
         }
       ],
-      "isbn": "9784532147891"
+      "isbn": "9784532147891",
+      "totalPages": 467,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784532147891-L.jpg"
     },
     {
       "id": "b08jy292mc",
@@ -8796,7 +8989,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784046048691"
+      "isbn": "9784046048691",
+      "totalPages": 342,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046048691-L.jpg"
     },
     {
       "id": "b01fse8d1k",
@@ -8818,7 +9013,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784569827735"
+      "isbn": "9784569827735",
+      "totalPages": 236,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784569827735-L.jpg"
     },
     {
       "id": "b0bf469ylk",
@@ -8835,7 +9032,10 @@
           "date": "2022-11-11",
           "currentPage": 0
         }
-      ]
+      ],
+      "isbn": "9784798171548",
+      "totalPages": 269,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784798171548-L.jpg"
     },
     {
       "id": "b01h1452ak",
@@ -8849,7 +9049,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784478068670"
+      "isbn": "9784478068670",
+      "totalPages": 197,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784478068670-L.jpg"
     },
     {
       "id": "b00tnzx8ys",
@@ -8866,7 +9068,10 @@
           "date": "2022-11-06",
           "currentPage": 0
         }
-      ]
+      ],
+      "isbn": "9784901234436",
+      "totalPages": 298,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784901234436-L.jpg"
     },
     {
       "id": "b00f4pdb3e",
@@ -8880,7 +9085,8 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784063872576"
+      "isbn": "9784063872576",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784063872576-L.jpg"
     },
     {
       "id": "b0876whddf",
@@ -8898,7 +9104,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784023318786"
+      "isbn": "9784023318786",
+      "totalPages": 269,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784023318786-L.jpg"
     },
     {
       "id": "b07hxmx3bc",
@@ -8962,7 +9170,10 @@
           "date": "2022-10-08",
           "currentPage": 0
         }
-      ]
+      ],
+      "isbn": "9784295013358",
+      "totalPages": 239,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784295013358-L.jpg"
     },
     {
       "id": "b0bg4754p7",
@@ -8989,7 +9200,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784334962562"
+      "isbn": "9784334962562",
+      "totalPages": 278,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784334962562-L.jpg"
     },
     {
       "id": "b07pqd5jmp",
@@ -9019,7 +9232,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784478107829"
+      "isbn": "9784478107829",
+      "totalPages": 305,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784478107829-L.jpg"
     },
     {
       "id": "b00ojvmk5o",
@@ -9033,7 +9248,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9781444792492"
+      "isbn": "9781444792492",
+      "totalPages": 371,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781444792492-L.jpg"
     },
     {
       "id": "b09nxfqrd3",
@@ -9048,7 +9265,9 @@
           "readingTimeMinutes": 10
         }
       ],
-      "isbn": "9784297125219"
+      "isbn": "9784297125219",
+      "totalPages": 281,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784297125219-L.jpg"
     },
     {
       "id": "b092hdfjkk",
@@ -9088,7 +9307,10 @@
           "date": "2022-08-26",
           "currentPage": 263
         }
-      ]
+      ],
+      "isbn": "9784296000180",
+      "totalPages": 361,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784296000180-L.jpg"
     },
     {
       "id": "b010cqd4y0",
@@ -9123,7 +9345,9 @@
           "currentPage": 89
         }
       ],
-      "isbn": "9784797376272"
+      "isbn": "9784797376272",
+      "totalPages": 342,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784797376272-L.jpg"
     },
     {
       "id": "b06xknc9vp",
@@ -9164,7 +9388,9 @@
           "currentPage": 192
         }
       ],
-      "isbn": "9784866801605"
+      "isbn": "9784866801605",
+      "totalPages": 238,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784866801605-L.jpg"
     },
     {
       "id": "b08hlfv2rv",
@@ -9195,7 +9421,9 @@
           "currentPage": 90
         }
       ],
-      "isbn": "9784046047991"
+      "isbn": "9784046047991",
+      "totalPages": 285,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784046047991-L.jpg"
     },
     {
       "id": "b07dd6xbhn",
@@ -9209,7 +9437,9 @@
           "currentPage": 0
         }
       ],
-      "isbn": "9784822255732"
+      "isbn": "9784822255732",
+      "totalPages": 327,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784822255732-L.jpg"
     },
     {
       "id": "b09tvym685",
@@ -9237,7 +9467,10 @@
           "currentPage": 15,
           "readingTimeMinutes": 2
         }
-      ]
+      ],
+      "isbn": "9784295002352",
+      "totalPages": 295,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784295002352-L.jpg"
     },
     {
       "id": "b07f8kz8sj",
@@ -9296,7 +9529,10 @@
           "currentPage": 663,
           "readingTimeMinutes": 17
         }
-      ]
+      ],
+      "isbn": "9784862762580",
+      "totalPages": 386,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784862762580-L.jpg"
     },
     {
       "id": "b00qr4cykm",
@@ -9311,7 +9547,9 @@
           "readingTimeMinutes": 32
         }
       ],
-      "isbn": "9784478039397"
+      "isbn": "9784478039397",
+      "totalPages": 222,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784478039397-L.jpg"
     },
     {
       "id": "b00ma671ww",
@@ -9335,7 +9573,8 @@
           "currentPage": 539
         }
       ],
-      "isbn": "9784867763551"
+      "isbn": "9784867763551",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784867763551-L.jpg"
     },
     {
       "id": "b00jdmposy",
@@ -9359,7 +9598,8 @@
           "readingTimeMinutes": 1
         }
       ],
-      "isbn": "9780735619678"
+      "isbn": "9780735619678",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735619678-L.jpg"
     },
     {
       "id": "b0732rrcwx",
@@ -9414,7 +9654,10 @@
           "date": "2022-05-11",
           "currentPage": 391
         }
-      ]
+      ],
+      "isbn": "9784775941812",
+      "totalPages": 259,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784775941812-L.jpg"
     },
     {
       "id": "b085192lck",
@@ -9429,7 +9672,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784088828213"
+      "isbn": "9784088828213",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088828213-L.jpg"
     },
     {
       "id": "b08sbzk333",
@@ -9444,7 +9688,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784088832111"
+      "isbn": "9784088832111",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088832111-L.jpg"
     },
     {
       "id": "b08fdp7mqw",
@@ -9459,7 +9704,8 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784088831398"
+      "isbn": "9784088831398",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088831398-L.jpg"
     },
     {
       "id": "b09c8r6dws",
@@ -9474,7 +9720,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784088833491"
+      "isbn": "9784088833491",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088833491-L.jpg"
     },
     {
       "id": "b07z9cvcdn",
@@ -9489,7 +9736,8 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784088826615"
+      "isbn": "9784088826615",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088826615-L.jpg"
     },
     {
       "id": "b088lyd7sq",
@@ -9504,7 +9752,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "isbn": "9784088830407"
+      "isbn": "9784088830407",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088830407-L.jpg"
     },
     {
       "id": "b084cycq5g",
@@ -9519,7 +9768,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "isbn": "9784088827773"
+      "isbn": "9784088827773",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088827773-L.jpg"
     },
     {
       "id": "b07xlt6sf4",
@@ -9534,7 +9784,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088826189"
+      "isbn": "9784088826189",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088826189-L.jpg"
     },
     {
       "id": "b0932lnxjs",
@@ -9549,7 +9800,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784088832999"
+      "isbn": "9784088832999",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088832999-L.jpg"
     },
     {
       "id": "b07t65mhlc",
@@ -9564,7 +9816,8 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784088824772"
+      "isbn": "9784088824772",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088824772-L.jpg"
     },
     {
       "id": "b07gw9mfnr",
@@ -9579,7 +9832,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "isbn": "9784910184036"
+      "isbn": "9784910184036",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784910184036-L.jpg"
     },
     {
       "id": "b07kpd3sw4",
@@ -9594,7 +9848,8 @@
           "readingTimeMinutes": 10
         }
       ],
-      "isbn": "9784088821801"
+      "isbn": "9784088821801",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088821801-L.jpg"
     },
     {
       "id": "b07gwglxl1",
@@ -9609,7 +9864,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784088817422"
+      "isbn": "9784088817422",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088817422-L.jpg"
     },
     {
       "id": "b07gwl99vy",
@@ -9624,7 +9880,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088820019"
+      "isbn": "9784088820019",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088820019-L.jpg"
     },
     {
       "id": "b07gwbnppz",
@@ -9639,7 +9896,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "isbn": "9784088820095"
+      "isbn": "9784088820095",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088820095-L.jpg"
     },
     {
       "id": "b07gwqt4jp",
@@ -9654,7 +9912,8 @@
           "readingTimeMinutes": 11
         }
       ],
-      "isbn": "9784910184029"
+      "isbn": "9784910184029",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784910184029-L.jpg"
     },
     {
       "id": "b07gwcjr4z",
@@ -9669,7 +9928,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784910184050"
+      "isbn": "9784910184050",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784910184050-L.jpg"
     },
     {
       "id": "b07gwqls46",
@@ -9684,7 +9944,8 @@
           "readingTimeMinutes": 14
         }
       ],
-      "isbn": "9784088821085"
+      "isbn": "9784088821085",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088821085-L.jpg"
     },
     {
       "id": "b07s2vw85y",
@@ -9699,7 +9960,8 @@
           "readingTimeMinutes": 9
         }
       ],
-      "isbn": "9784088823621"
+      "isbn": "9784088823621",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088823621-L.jpg"
     },
     {
       "id": "b07gwcf475",
@@ -9714,7 +9976,8 @@
           "readingTimeMinutes": 13
         }
       ],
-      "isbn": "9784088817811"
+      "isbn": "9784088817811",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088817811-L.jpg"
     },
     {
       "id": "b07gwmlqx6",
@@ -9729,7 +9992,8 @@
           "readingTimeMinutes": 15
         }
       ],
-      "isbn": "9784910184043"
+      "isbn": "9784910184043",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784910184043-L.jpg"
     },
     {
       "id": "b07gwjj96d",
@@ -9758,7 +10022,8 @@
           "readingTimeMinutes": 10
         }
       ],
-      "isbn": "9784088822761"
+      "isbn": "9784088822761",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784088822761-L.jpg"
     },
     {
       "id": "b009nq7mia",
@@ -9787,7 +10052,10 @@
           "currentPage": 258,
           "readingTimeMinutes": 10
         }
-      ]
+      ],
+      "isbn": "9784844323044",
+      "totalPages": 269,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784844323044-L.jpg"
     },
     {
       "id": "b0868dr365",
@@ -9875,7 +10143,9 @@
           "currentPage": 680
         }
       ],
-      "isbn": "9784822288778"
+      "isbn": "9784822288778",
+      "totalPages": 445,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784822288778-L.jpg"
     },
     {
       "id": "b094qqymnr",
@@ -9889,7 +10159,9 @@
           "currentPage": 2
         }
       ],
-      "isbn": "9784837987192"
+      "isbn": "9784837987192",
+      "totalPages": 221,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784837987192-L.jpg"
     },
     {
       "id": "b08vmlj7lk",
@@ -9907,7 +10179,10 @@
           "date": "2022-03-28",
           "currentPage": 43
         }
-      ]
+      ],
+      "isbn": "9784492046852",
+      "totalPages": 288,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784492046852-L.jpg"
     },
     {
       "id": "b08pf27trz",
@@ -9936,7 +10211,9 @@
           "currentPage": 126
         }
       ],
-      "isbn": "9784798061702"
+      "isbn": "9784798061702",
+      "totalPages": 495,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784798061702-L.jpg"
     },
     {
       "id": "b09n8q51q8",
@@ -11117,7 +11394,8 @@
         }
       ],
       "isbn": "9784877710514",
-      "totalPages": 610
+      "totalPages": 610,
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9784877710514-L.jpg"
     },
     {
       "id": "b017d6e12g",
@@ -11268,7 +11546,7 @@
         }
       ],
       "totalPages": 137,
-      "coverUrl": "https://books.google.com/books/content?id=ycSjDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "coverUrl": "https://ndlsearch.ndl.go.jp/thumbnail/9784822279981.jpg",
       "isbn": "9784822279981"
     },
     {

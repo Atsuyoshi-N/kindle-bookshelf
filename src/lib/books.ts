@@ -5,6 +5,10 @@ import { fetchCoverUrls } from "./openbd";
 
 const PLACEHOLDER_COVER = "/placeholder-cover.svg";
 
+function buildNdlCoverUrl(isbn: string): string {
+  return `https://ndlsearch.ndl.go.jp/thumbnail/${isbn}.jpg`;
+}
+
 interface BooksJson {
   books: BookData[];
 }
@@ -84,6 +88,7 @@ export async function getAllBooks(): Promise<Book[]> {
     const resolvedCoverUrl =
       (bookData.isbn ? coverMap.get(bookData.isbn) : undefined) ||
       bookData.coverUrl ||
+      (bookData.isbn ? buildNdlCoverUrl(bookData.isbn) : undefined) ||
       PLACEHOLDER_COVER;
 
     const computedSessions = computeSessions(bookData);

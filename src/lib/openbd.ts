@@ -29,23 +29,9 @@ async function fetchFromOpenBD(
   return coverMap;
 }
 
-function buildNdlCoverUrl(isbn: string): string {
-  return `https://ndlsearch.ndl.go.jp/thumbnail/${isbn}.jpg`;
-}
-
 export async function fetchCoverUrls(
   isbns: string[]
 ): Promise<Map<string, string>> {
-  // 1. Try OpenBD first (batch request, may have higher-res covers)
-  const coverMap = await fetchFromOpenBD(isbns);
-
-  // 2. For ISBNs not found in OpenBD, use NDL thumbnail
-  //    NDL doesn't need an API call to resolve — the URL pattern is deterministic
-  for (const isbn of isbns) {
-    if (!coverMap.has(isbn)) {
-      coverMap.set(isbn, buildNdlCoverUrl(isbn));
-    }
-  }
-
-  return coverMap;
+  // Try OpenBD (batch request, may have higher-res covers)
+  return await fetchFromOpenBD(isbns);
 }

@@ -2,7 +2,8 @@
 
 /**
  * books.json 内の coverUrl が未設定の本について、
- * Google Books APIから表紙画像URLを取得するスクリプト
+ * Open Library Covers API（ISBNベース）→ Google Books API（タイトル検索）の
+ * 順で表紙画像URLを取得するスクリプト
  *
  * 使い方:
  *   node scripts/fetch-covers.mjs
@@ -53,9 +54,33 @@ function cleanTitleForSearch(title) {
 }
 
 /**
+ * Search Open Library Covers API by ISBN.
+ * Returns cover URL string or null.
+ * Open Library returns a 1x1 placeholder (~43 bytes) when no cover exists.
+ */
+async function searchOpenLibrary(isbn) {
+  const url = `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+
+  try {
+    const response = await fetch(url, { method: "HEAD", redirect: "follow" });
+    if (!response.ok) return null;
+
+    const contentLength = response.headers.get("content-length");
+    // The placeholder image is ~43 bytes (1x1 transparent pixel)
+    if (contentLength && parseInt(contentLength, 10) < 1000) {
+      return null;
+    }
+
+    return url;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Search Google Books API for cover image URL
  */
-async function searchCover(title) {
+async function searchGoogleBooks(title) {
   const query = cleanTitleForSearch(title);
   const url = `https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(query)}&langRestrict=ja&maxResults=5`;
 
@@ -165,12 +190,14 @@ async function main() {
 
   console.log(`対象: ${targets.length}冊`);
   console.log(`待機時間: ${args.delay}ms`);
+  console.log("ソース: Open Library (ISBN) → Google Books (タイトル)");
   if (args.dryRun) console.log("(ドライラン: 変更は保存されません)");
   console.log();
 
   let updated = 0;
   let failed = 0;
   let rateLimited = 0;
+  let bySource = { openLibrary: 0, googleBooks: 0 };
 
   for (let i = 0; i < targets.length; i++) {
     const book = targets[i];
@@ -178,24 +205,42 @@ async function main() {
       `[${i + 1}/${targets.length}] ${book.title.substring(0, 50)} ... `
     );
 
-    const result = await searchCover(book.title);
+    let coverUrl = null;
+    let source = null;
 
-    if (result && typeof result === "object" && result.rateLimited) {
-      console.log("レート制限（待機中）");
-      rateLimited++;
-      // Wait and retry
-      await sleep(10000);
-      i--;
-      if (rateLimited >= 10) {
-        console.log("\nレート制限が多すぎるため中断します。");
-        break;
-      }
-      continue;
+    // 1. Try Open Library if ISBN is available
+    if (book.isbn) {
+      coverUrl = await searchOpenLibrary(book.isbn);
+      if (coverUrl) source = "OpenLibrary";
     }
 
-    if (result) {
-      book.coverUrl = result;
-      console.log("取得済み");
+    // 2. Fallback to Google Books
+    if (!coverUrl) {
+      const result = await searchGoogleBooks(book.title);
+
+      if (result && typeof result === "object" && result.rateLimited) {
+        console.log("Google レート制限（スキップ）");
+        rateLimited++;
+        // Don't retry Google Books, just continue to next book
+        // (Open Library doesn't have rate limits so partial results are still saved)
+        if (rateLimited >= 3) {
+          console.log("  Google Books APIのレート制限のため、以降はOpen Libraryのみ使用します。");
+        }
+        failed++;
+        if (i < targets.length - 1) await sleep(args.delay);
+        continue;
+      }
+
+      if (result) {
+        coverUrl = result;
+        source = "Google";
+      }
+    }
+
+    if (coverUrl) {
+      book.coverUrl = coverUrl;
+      bySource[source === "OpenLibrary" ? "openLibrary" : "googleBooks"]++;
+      console.log(`取得済み (${source})`);
       updated++;
     } else {
       console.log("見つからず");
@@ -209,7 +254,7 @@ async function main() {
 
   console.log();
   console.log(
-    `結果: 更新 ${updated}冊, 未検出 ${failed}冊, レート制限 ${rateLimited}回`
+    `結果: 更新 ${updated}冊 (OpenLibrary: ${bySource.openLibrary}, Google: ${bySource.googleBooks}), 未検出 ${failed}冊, レート制限 ${rateLimited}回`
   );
 
   if (!args.dryRun && updated > 0) {
