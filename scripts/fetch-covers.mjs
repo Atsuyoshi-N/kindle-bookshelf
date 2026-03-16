@@ -62,12 +62,13 @@ async function searchOpenLibrary(isbn) {
   const url = `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
 
   try {
-    const response = await fetch(url, { method: "HEAD", redirect: "follow" });
+    // Must use GET because Open Library's HEAD doesn't always return content-length
+    const response = await fetch(url, { redirect: "follow" });
     if (!response.ok) return null;
 
-    const contentLength = response.headers.get("content-length");
+    const buf = await response.arrayBuffer();
     // The placeholder image is ~43 bytes (1x1 transparent pixel)
-    if (contentLength && parseInt(contentLength, 10) < 1000) {
+    if (buf.byteLength < 1000) {
       return null;
     }
 
