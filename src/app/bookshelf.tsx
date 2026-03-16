@@ -19,7 +19,9 @@ function getProgress(book: Book): number | null {
     return book.currentPercent ?? null;
   }
   if (book.totalPages && book.currentPage) {
-    return Math.min(100, (book.currentPage / book.totalPages) * 100);
+    // Modulo for re-reads: page flips can exceed totalPages
+    const effectivePage = ((book.currentPage - 1) % book.totalPages) + 1;
+    return Math.min(100, (effectivePage / book.totalPages) * 100);
   }
   return null;
 }
@@ -28,8 +30,9 @@ function getProgressLabel(book: Book): string {
   if (book.progressType === "percent") {
     return `${book.currentPercent ?? 0}%`;
   }
-  if (book.totalPages) {
-    return `${book.currentPage ?? 0} / ${book.totalPages}ページ`;
+  if (book.totalPages && book.currentPage) {
+    const effectivePage = ((book.currentPage - 1) % book.totalPages) + 1;
+    return `${effectivePage} / ${book.totalPages}ページ`;
   }
   return `${book.currentPage ?? 0}ページ`;
 }
@@ -137,6 +140,16 @@ export function BookShelf({ books }: { books: Book[] }) {
                         {getProgressLabel(book)}
                       </p>
                     </div>
+                  )}
+                  {progress === null && book.totalPages && (
+                    <p className="text-xs text-muted mt-2">
+                      全{book.totalPages}ページ
+                    </p>
+                  )}
+                  {progress === null && !book.totalPages && book.currentPage && (
+                    <p className="text-xs text-muted mt-2">
+                      {book.currentPage}ページ読了
+                    </p>
                   )}
                 </div>
               </div>

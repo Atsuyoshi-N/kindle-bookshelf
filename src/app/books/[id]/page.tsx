@@ -20,6 +20,13 @@ function formatReadingTime(minutes: number): string {
   return mins > 0 ? `${hours}時間${mins}分` : `${hours}時間`;
 }
 
+/** Apply modulo to wrap page number within totalPages */
+function wrapPage(page: number, totalPages: number | undefined): number {
+  if (!totalPages || totalPages <= 0) return page;
+  if (page <= 0) return 0;
+  return ((page - 1) % totalPages) + 1;
+}
+
 export async function generateStaticParams() {
   const books = await getAllBooks();
   return books.map((book) => ({ id: book.id }));
@@ -39,7 +46,9 @@ export async function generateMetadata({
   };
 }
 
-function groupByRound(sessions: ComputedSession[]): Map<number, ComputedSession[]> {
+function groupByRound(
+  sessions: ComputedSession[]
+): Map<number, ComputedSession[]> {
   const map = new Map<number, ComputedSession[]>();
   for (const s of sessions) {
     const list = map.get(s.round) ?? [];
@@ -65,10 +74,14 @@ export default async function BookPage({
   const roundGroups = groupByRound(book.computedSessions);
   const rounds = Array.from(roundGroups.keys()).sort((a, b) => b - a);
 
+  const effectiveCurrentPage = book.currentPage
+    ? wrapPage(book.currentPage, book.totalPages)
+    : 0;
+
   const progressBar = isPercent
     ? book.currentPercent ?? 0
     : book.totalPages && book.currentPage
-      ? Math.min(100, (book.currentPage / book.totalPages) * 100)
+      ? Math.min(100, (effectiveCurrentPage / book.totalPages) * 100)
       : null;
 
   return (
@@ -100,7 +113,7 @@ export default async function BookPage({
             <p className="text-sm text-muted mb-4">ISBN: {book.isbn}</p>
           )}
 
-          <div className="flex gap-6 mb-6">
+          <div className="flex flex-wrap gap-6 mb-6">
             <div>
               <p className="text-sm text-muted">現在の進捗</p>
               <p className="text-xl font-bold">
@@ -108,11 +121,16 @@ export default async function BookPage({
                   <>{book.currentPercent ?? 0}%</>
                 ) : (
                   <>
-                    {book.currentPage ?? 0}
+                    {effectiveCurrentPage}
                     {book.totalPages && (
                       <span className="text-sm font-normal text-muted">
                         {" "}
                         / {book.totalPages}ページ
+                      </span>
+                    )}
+                    {!book.totalPages && (
+                      <span className="text-sm font-normal text-muted">
+                        ページ
                       </span>
                     )}
                   </>
@@ -133,6 +151,12 @@ export default async function BookPage({
                 </p>
               </div>
             )}
+            {book.totalPages && (
+              <div>
+                <p className="text-sm text-muted">総ページ数</p>
+                <p className="text-xl font-bold">{book.totalPages}</p>
+              </div>
+            )}
             {book.currentRound > 1 && (
               <div>
                 <p className="text-sm text-muted">現在</p>
@@ -144,7 +168,7 @@ export default async function BookPage({
           {progressBar !== null && (
             <div className="mb-6">
               <div className="flex justify-between text-sm text-muted mb-1">
-                <span>進捗（{book.currentRound}周目）</span>
+                <span>進捗{book.currentRound > 1 ? `（${book.currentRound}周目）` : ""}</span>
                 <span>{Math.round(progressBar)}%</span>
               </div>
               <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
@@ -178,7 +202,15 @@ export default async function BookPage({
                           日付
                         </th>
                         <th className="text-right px-4 py-3 font-medium">
-                          読んだ範囲
+                          <span className="inline-flex items-center gap-1">
+                            読んだ範囲
+                            <span
+                              className="inline-flex items-center justify-center w-4 h-4 rounded-full border border-current text-[10px] leading-none cursor-help opacity-60"
+                              title="ページめくり数の累計から算出した推定値です。戻る操作等により実際のページ番号とは異なる場合があります。"
+                            >
+                              i
+                            </span>
+                          </span>
                         </th>
                         <th className="text-right px-4 py-3 font-medium">
                           {isPercent ? "進んだ割合" : "読んだページ数"}
@@ -214,7 +246,9 @@ export default async function BookPage({
                               {hasReadingTime && (
                                 <td className="text-right px-4 py-3 text-muted">
                                   {session.readingTimeMinutes
-                                    ? formatReadingTime(session.readingTimeMinutes)
+                                    ? formatReadingTime(
+                                        session.readingTimeMinutes
+                                      )
                                     : "-"}
                                 </td>
                               )}
@@ -222,10 +256,22 @@ export default async function BookPage({
                           );
                         }
 
-                        const prev =
+                        const rawPrev =
                           index < sessions.length - 1
                             ? sessions[index + 1].currentPage ?? 0
                             : 0;
+                        const rawCurrent = session.currentPage ?? 0;
+
+                        const prevPage = wrapPage(
+                          rawPrev,
+                          book.totalPages
+                        );
+                        const currentPage = wrapPage(
+                          rawCurrent,
+                          book.totalPages
+                        );
+                        const pagesRead = session.pagesRead ?? 0;
+
                         return (
                           <tr
                             key={`${round}-${session.date}`}
@@ -235,15 +281,17 @@ export default async function BookPage({
                               {formatDate(session.date)}
                             </td>
                             <td className="text-right px-4 py-3 text-muted">
-                              p.{prev + 1} → p.{session.currentPage}
+                              p.{prevPage + 1} → p.{currentPage}
                             </td>
                             <td className="text-right px-4 py-3">
-                              {session.pagesRead}ページ
+                              {pagesRead}ページ
                             </td>
                             {hasReadingTime && (
                               <td className="text-right px-4 py-3 text-muted">
                                 {session.readingTimeMinutes
-                                  ? formatReadingTime(session.readingTimeMinutes)
+                                  ? formatReadingTime(
+                                      session.readingTimeMinutes
+                                    )
                                   : "-"}
                               </td>
                             )}

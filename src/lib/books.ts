@@ -82,8 +82,8 @@ export async function getAllBooks(): Promise<Book[]> {
 
   const books: Book[] = booksData.map((bookData) => {
     const resolvedCoverUrl =
-      bookData.coverUrl ||
       (bookData.isbn ? coverMap.get(bookData.isbn) : undefined) ||
+      bookData.coverUrl ||
       PLACEHOLDER_COVER;
 
     const computedSessions = computeSessions(bookData);

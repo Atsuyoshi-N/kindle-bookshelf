@@ -4,9 +4,12 @@
  * Amazon Kindleデータエクスポートから books.json を生成するスクリプト
  *
  * 使い方:
+ *   node scripts/import-kindle-csv.mjs --kindle-dir ~/Downloads/Kindle
+ *
+ * または個別にファイルを指定:
  *   node scripts/import-kindle-csv.mjs \
  *     --sessions path/to/Kindle.Devices.ReadingSession.csv \
- *     --metadata path/to/Kindle.KindleDocs.DocumentMetadata.csv
+ *     --orders path/to/Kindle.UnifiedLibraryIndex.CustomerOrders_FE.csv
  *
  * オプション:
  *   --merge  既存の books.json とマージする（デフォルト: 上書き）
@@ -22,7 +25,9 @@ const BOOKS_JSON_PATH = path.join(__dirname, "..", "data", "books.json");
 // --- CSV Parser ---
 
 function parseCSV(content) {
-  const lines = content.split("\n");
+  // Remove BOM if present
+  const cleaned = content.replace(/^\uFEFF/, "");
+  const lines = cleaned.split("\n");
   if (lines.length === 0) return [];
 
   const headers = parseCSVLine(lines[0]);
@@ -31,6 +36,9 @@ function parseCSV(content) {
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i].trim();
     if (!line) continue;
+    // Skip description row (Amazon exports often have a 2nd row with column descriptions)
+    if (i === 1 && isDescriptionRow(line, headers.length)) continue;
+
     const values = parseCSVLine(line);
     const row = {};
     headers.forEach((h, idx) => {
@@ -40,6 +48,13 @@ function parseCSV(content) {
   }
 
   return rows;
+}
+
+function isDescriptionRow(line, headerCount) {
+  const values = parseCSVLine(line);
+  // If most values are long descriptions (>30 chars), it's likely a description row
+  const longValues = values.filter((v) => v.length > 30);
+  return longValues.length > headerCount / 2;
 }
 
 function parseCSVLine(line) {
@@ -79,22 +94,63 @@ function parseCSVLine(line) {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  const parsed = { sessions: null, metadata: null, merge: false };
+  const parsed = { sessions: null, orders: null, merge: false, kindleDir: null };
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--sessions" && args[i + 1]) {
       parsed.sessions = args[++i];
+    } else if (args[i] === "--orders" && args[i + 1]) {
+      parsed.orders = args[++i];
     } else if (args[i] === "--metadata" && args[i + 1]) {
-      parsed.metadata = args[++i];
+      // Backward compatibility
+      parsed.orders = args[++i];
+    } else if (args[i] === "--kindle-dir" && args[i + 1]) {
+      parsed.kindleDir = args[++i];
     } else if (args[i] === "--merge") {
       parsed.merge = true;
     }
   }
 
+  // Auto-detect files from --kindle-dir
+  if (parsed.kindleDir) {
+    const dir = parsed.kindleDir;
+
+    if (!parsed.sessions) {
+      const sessionPath = path.join(
+        dir,
+        "Kindle.Devices.ReadingSession",
+        "Kindle.Devices.ReadingSession.csv"
+      );
+      if (fs.existsSync(sessionPath)) {
+        parsed.sessions = sessionPath;
+      }
+    }
+
+    if (!parsed.orders) {
+      const ordersPath = path.join(
+        dir,
+        "Kindle.UnifiedLibraryIndex",
+        "datasets",
+        "Kindle.UnifiedLibraryIndex.CustomerOrders_FE",
+        "Kindle.UnifiedLibraryIndex.CustomerOrders_FE.csv"
+      );
+      if (fs.existsSync(ordersPath)) {
+        parsed.orders = ordersPath;
+      }
+    }
+  }
+
   if (!parsed.sessions) {
-    console.error("エラー: --sessions オプションが必要です");
+    console.error("エラー: ReadingSession.csv が見つかりません");
+    console.error();
+    console.error("使い方:");
     console.error(
-      "使い方: node scripts/import-kindle-csv.mjs --sessions <ReadingSession.csv> --metadata <DocumentMetadata.csv>"
+      "  node scripts/import-kindle-csv.mjs --kindle-dir ~/Downloads/Kindle"
+    );
+    console.error();
+    console.error("または個別に指定:");
+    console.error(
+      "  node scripts/import-kindle-csv.mjs --sessions <ReadingSession.csv> --orders <CustomerOrders_FE.csv>"
     );
     process.exit(1);
   }
@@ -102,13 +158,11 @@ function parseArgs() {
   return parsed;
 }
 
-// --- ASIN to slug ---
+// --- Helpers ---
 
 function asinToSlug(asin) {
   return asin.toLowerCase().replace(/[^a-z0-9]/g, "-");
 }
-
-// --- Find column by partial match ---
 
 function findColumn(row, candidates) {
   const keys = Object.keys(row);
@@ -127,6 +181,7 @@ function main() {
   const args = parseArgs();
 
   // Parse ReadingSession CSV
+  console.log(`読み込み中: ${args.sessions}`);
   const sessionsContent = fs.readFileSync(args.sessions, "utf-8");
   const sessionsRows = parseCSV(sessionsContent);
 
@@ -135,68 +190,55 @@ function main() {
     process.exit(1);
   }
 
-  // Detect column names from first row
+  // Detect column names
   const sampleSession = sessionsRows[0];
-  const colASIN_s =
-    findColumn(sampleSession, ["ASIN", "asin"]) || "ASIN";
-  const colTimestamp =
-    findColumn(sampleSession, [
-      "start_timestamp",
-      "timestamp",
-      "start_time",
-    ]) || "start_timestamp";
+  const colASIN_s = findColumn(sampleSession, ["ASIN", "asin"]) || "ASIN";
+  const colStartTimestamp =
+    findColumn(sampleSession, ["start_timestamp"]) || "start_timestamp";
+  const colEndTimestamp =
+    findColumn(sampleSession, ["end_timestamp"]) || "end_timestamp";
   const colReadingMillis =
-    findColumn(sampleSession, [
-      "total_reading_millis",
-      "reading_millis",
-      "reading_time",
-    ]) || "total_reading_millis";
+    findColumn(sampleSession, ["total_reading_millis"]) ||
+    "total_reading_millis";
   const colPageFlips =
-    findColumn(sampleSession, [
-      "number_of_page_flips",
-      "page_flips",
-      "page_turns",
-    ]) || "number_of_page_flips";
+    findColumn(sampleSession, ["number_of_page_flips"]) ||
+    "number_of_page_flips";
 
-  console.log("ReadingSession カラム検出:");
-  console.log(`  ASIN: ${colASIN_s}`);
-  console.log(`  タイムスタンプ: ${colTimestamp}`);
-  console.log(`  読書時間: ${colReadingMillis}`);
-  console.log(`  ページめくり: ${colPageFlips}`);
   console.log(`  セッション数: ${sessionsRows.length}`);
   console.log();
 
-  // Parse Metadata CSV (optional)
-  const metadataMap = new Map(); // ASIN -> { title, author? }
+  // Parse Orders CSV (for title lookup)
+  const titleMap = new Map(); // ASIN -> title
 
-  if (args.metadata) {
-    const metaContent = fs.readFileSync(args.metadata, "utf-8");
-    const metaRows = parseCSV(metaContent);
+  if (args.orders) {
+    console.log(`読み込み中: ${args.orders}`);
+    const ordersContent = fs.readFileSync(args.orders, "utf-8");
+    const ordersRows = parseCSV(ordersContent);
 
-    if (metaRows.length > 0) {
-      const sampleMeta = metaRows[0];
-      const colASIN_m =
-        findColumn(sampleMeta, ["ASIN", "asin"]) || "ASIN";
-      const colTitle =
-        findColumn(sampleMeta, ["title", "Title"]) || "Title";
-      const colAuthor = findColumn(sampleMeta, ["author", "Author"]);
+    if (ordersRows.length > 0) {
+      const sampleOrder = ordersRows[0];
+      const colASIN_o =
+        findColumn(sampleOrder, ["ASIN", "asin"]) || "ASIN";
+      const colProductName =
+        findColumn(sampleOrder, ["Product Name", "product_name", "title"]) ||
+        "Product Name";
 
-      console.log("DocumentMetadata カラム検出:");
-      console.log(`  ASIN: ${colASIN_m}`);
-      console.log(`  タイトル: ${colTitle}`);
-      console.log(`  著者: ${colAuthor ?? "(なし)"}`);
-      console.log(`  書籍数: ${metaRows.length}`);
+      console.log(`  書籍数: ${ordersRows.length}`);
       console.log();
 
-      for (const row of metaRows) {
-        const asin = row[colASIN_m];
-        if (!asin) continue;
-        metadataMap.set(asin, {
-          title: row[colTitle] || `不明 (${asin})`,
-          author: colAuthor ? row[colAuthor] || "" : "",
-        });
+      for (const row of ordersRows) {
+        const asin = row[colASIN_o];
+        const title = row[colProductName];
+        if (asin && title) {
+          titleMap.set(asin, title);
+        }
       }
     }
+  } else {
+    console.log(
+      "注意: CustomerOrders_FE.csv が見つかりません。タイトルはASINで表示されます。"
+    );
+    console.log();
   }
 
   // Group sessions by ASIN, then by date
@@ -206,14 +248,19 @@ function main() {
     const asin = row[colASIN_s];
     if (!asin) continue;
 
-    const timestamp = row[colTimestamp];
-    const date = timestamp
-      ? new Date(timestamp).toISOString().split("T")[0]
-      : null;
-    if (!date || date === "Invalid") continue;
+    // Use end_timestamp if start_timestamp is "Not Available"
+    let timestamp = row[colStartTimestamp];
+    if (!timestamp || timestamp === "Not Available") {
+      timestamp = row[colEndTimestamp];
+    }
+    if (!timestamp || timestamp === "Not Available") continue;
 
-    const readingMillis = parseInt(row[colReadingMillis] || "0", 10);
-    const pageFlips = parseInt(row[colPageFlips] || "0", 10);
+    const parsed = new Date(timestamp);
+    if (isNaN(parsed.getTime())) continue;
+    const date = parsed.toISOString().split("T")[0];
+
+    const readingMillis = parseInt(row[colReadingMillis] || "0", 10) || 0;
+    const pageFlips = parseInt(row[colPageFlips] || "0", 10) || 0;
 
     if (!bookSessions.has(asin)) {
       bookSessions.set(asin, new Map());
@@ -233,9 +280,7 @@ function main() {
   const books = [];
 
   for (const [asin, dateSessions] of bookSessions) {
-    const meta = metadataMap.get(asin);
-    const title = meta?.title || `不明 (${asin})`;
-    const author = meta?.author || "";
+    const title = titleMap.get(asin) || `不明 (${asin})`;
 
     // Sort dates chronologically
     const sortedDates = Array.from(dateSessions.keys()).sort();
@@ -262,7 +307,7 @@ function main() {
     books.push({
       id: asinToSlug(asin),
       title,
-      author,
+      author: "",
       asin,
       progressType: "page",
       sessions,
@@ -281,10 +326,10 @@ function main() {
 
   if (args.merge && fs.existsSync(BOOKS_JSON_PATH)) {
     const existing = JSON.parse(fs.readFileSync(BOOKS_JSON_PATH, "utf-8"));
-    const existingIds = new Set(existing.books.map((b) => b.id));
     const existingAsins = new Set(
       existing.books.filter((b) => b.asin).map((b) => b.asin)
     );
+    const existingIds = new Set(existing.books.map((b) => b.id));
 
     const newBooks = books.filter(
       (b) => !existingIds.has(b.id) && !existingAsins.has(b.asin)
@@ -302,17 +347,22 @@ function main() {
   // Write books.json
   fs.writeFileSync(BOOKS_JSON_PATH, JSON.stringify(output, null, 2) + "\n");
 
-  console.log(`完了: ${output.books.length}冊を ${BOOKS_JSON_PATH} に書き出しました`);
+  console.log(
+    `完了: ${output.books.length}冊を ${BOOKS_JSON_PATH} に書き出しました`
+  );
+
+  // Summary
+  const noTitle = output.books.filter((b) => b.title.startsWith("不明")).length;
+  if (noTitle > 0) {
+    console.log(`  タイトル不明: ${noTitle}冊`);
+  }
+
   console.log();
-  console.log("注意:");
+  console.log("次のステップ:");
+  console.log("  1. books.json を確認し、著者名 (author) を補完してください");
+  console.log("  2. ISBNを追加すると表紙画像が自動取得されます");
   console.log(
-    "  - 著者名・ISBNが不足している場合は books.json を手動で補完してください"
-  );
-  console.log(
-    "  - ISBNを追加すると表紙画像が自動取得されます"
-  );
-  console.log(
-    '  - "currentPage" はページめくり数の累計値で、実際のページ番号とは異なる場合があります'
+    '  3. "currentPage" はページめくり数の累計です（実際のページ番号と異なる場合があります）'
   );
 }
 
