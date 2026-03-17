@@ -168,9 +168,11 @@ export function BookShelf({ books }: { books: Book[] }) {
                     <p className="text-[10px] sm:text-xs text-muted">
                       {formatDate(book.lastReadDate)}
                     </p>
-                    {book.completedRounds >= 2 && (
+                    {book.completedRounds >= 1 && (
                       <span className="text-[10px] sm:text-xs bg-accent/15 text-accent px-1 sm:px-1.5 py-0.5 rounded">
-                        {book.completedRounds}周済み
+                        {book.completedRounds === 1
+                          ? "読了"
+                          : `${book.completedRounds}周読破`}
                       </span>
                     )}
                   </div>
