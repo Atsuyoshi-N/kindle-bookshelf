@@ -99,6 +99,15 @@ export async function getAllBooks(): Promise<Book[]> {
 
     const currentRound = lastSession?.round ?? 1;
 
+    const totalPagesRead = computedSessions.reduce(
+      (sum, s) => sum + (s.pagesRead ?? 0),
+      0
+    );
+    const completedRounds =
+      bookData.totalPages && bookData.totalPages > 0
+        ? Math.floor(totalPagesRead / bookData.totalPages)
+        : 0;
+
     const totalReadingTimeMinutes = computedSessions.reduce(
       (sum, s) => sum + (s.readingTimeMinutes ?? 0),
       0
@@ -111,6 +120,7 @@ export async function getAllBooks(): Promise<Book[]> {
       currentPage: lastSession?.currentPage,
       currentPercent: lastSession?.currentPercent,
       currentRound,
+      completedRounds,
       totalReadingTimeMinutes,
       computedSessions,
     };

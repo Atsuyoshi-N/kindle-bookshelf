@@ -34,6 +34,7 @@ export interface Book extends BookData {
   currentPage?: number;
   currentPercent?: number;
   currentRound: number;
+  completedRounds: number;
   totalReadingTimeMinutes: number;
   computedSessions: ComputedSession[];
 }
