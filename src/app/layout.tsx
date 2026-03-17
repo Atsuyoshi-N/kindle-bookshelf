@@ -22,9 +22,15 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${notoSansJP.variable} font-sans antialiased`}>
         <header className="border-b border-card-border">
-          <div className="max-w-6xl mx-auto px-4 py-4">
+          <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <Link href="/" className="text-xl font-bold text-accent">
               My Kindle Bookshelf
+            </Link>
+            <Link
+              href="/stats"
+              className="text-sm text-muted hover:text-accent transition-colors"
+            >
+              統計
             </Link>
           </div>
         </header>
