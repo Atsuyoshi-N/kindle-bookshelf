@@ -1,8 +1,8 @@
 import { getAllBooks } from "@/lib/books";
 import { BookShelf } from "./bookshelf";
 
-export default async function Home() {
-  const books = await getAllBooks();
+export default function Home() {
+  const books = getAllBooks();
 
   return <BookShelf books={books} />;
 }

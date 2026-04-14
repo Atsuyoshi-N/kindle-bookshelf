@@ -20,8 +20,8 @@ function formatMinutes(minutes: number): string {
   return mins > 0 ? `${hours}時間${mins}分` : `${hours}時間`;
 }
 
-export default async function StatsPage() {
-  const books = await getAllBooks();
+export default function StatsPage() {
+  const books = getAllBooks();
   const monthlyData = aggregateMonthlyData(books);
   const yearlyData = aggregateYearlyReadingTime(books);
 

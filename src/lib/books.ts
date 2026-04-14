@@ -1,12 +1,11 @@
 import fs from "fs";
 import path from "path";
 import { Book, BookData, ComputedSession } from "@/types/book";
-import { fetchCoverUrls } from "./openbd";
 
 const PLACEHOLDER_COVER = "/placeholder-cover.svg";
 
-function buildNdlCoverUrl(isbn: string): string {
-  return `https://ndlsearch.ndl.go.jp/thumbnail/${isbn}.jpg`;
+function buildAmazonCoverUrl(asin: string): string {
+  return `https://m.media-amazon.com/images/P/${asin}.01._SCLZZZZZZZ_SX300_.jpg`;
 }
 
 interface BooksJson {
@@ -75,21 +74,13 @@ function computeSessions(book: BookData): ComputedSession[] {
   return result;
 }
 
-export async function getAllBooks(): Promise<Book[]> {
+export function getAllBooks(): Book[] {
   const booksData = loadBooksJson();
 
-  const isbns = booksData
-    .filter((b) => b.isbn)
-    .map((b) => b.isbn as string);
-
-  const coverMap = await fetchCoverUrls(isbns);
-
   const books: Book[] = booksData.map((bookData) => {
-    const resolvedCoverUrl =
-      (bookData.isbn ? coverMap.get(bookData.isbn) : undefined) ||
-      bookData.coverUrl ||
-      (bookData.isbn ? buildNdlCoverUrl(bookData.isbn) : undefined) ||
-      PLACEHOLDER_COVER;
+    const resolvedCoverUrl = bookData.asin
+      ? buildAmazonCoverUrl(bookData.asin)
+      : bookData.coverUrl ?? PLACEHOLDER_COVER;
 
     const computedSessions = computeSessions(bookData);
     const lastSession =
@@ -131,7 +122,6 @@ export async function getAllBooks(): Promise<Book[]> {
   return books;
 }
 
-export async function getBookById(id: string): Promise<Book | undefined> {
-  const books = await getAllBooks();
-  return books.find((b) => b.id === id);
+export function getBookById(id: string): Book | undefined {
+  return getAllBooks().find((b) => b.id === id);
 }

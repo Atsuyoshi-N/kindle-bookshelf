@@ -29,8 +29,8 @@ function wrapPage(page: number, totalPages: number | undefined): number {
   return ((page - 1) % totalPages) + 1;
 }
 
-export async function generateStaticParams() {
-  const books = await getAllBooks();
+export function generateStaticParams() {
+  const books = getAllBooks();
   return books.map((book) => ({ id: book.id }));
 }
 
@@ -40,7 +40,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const book = await getBookById(id);
+  const book = getBookById(id);
   if (!book) return { title: "Not Found" };
   return {
     title: `${book.title} - My Kindle Bookshelf`,
@@ -66,7 +66,7 @@ export default async function BookPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const book = await getBookById(id);
+  const book = getBookById(id);
 
   if (!book) {
     notFound();
